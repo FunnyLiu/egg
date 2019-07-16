@@ -295,95 +295,95 @@ describe('test/lib/core/httpclient.test.js', () => {
     });
   });
 
-  describe('before app ready multi httpclient request tracer', () => {
-    let app;
-    before(() => {
-      app = utils.app('apps/httpclient-tracer');
-    });
+  // describe('before app ready multi httpclient request tracer', () => {
+  //   let app;
+  //   before(() => {
+  //     app = utils.app('apps/httpclient-tracer');
+  //   });
 
-    after(() => app.close());
+  //   after(() => app.close());
 
-    it('should app request before ready use same tracer', async () => {
-      const httpclient = app.httpclient;
+  //   it('should app request before ready use same tracer', async () => {
+  //     const httpclient = app.httpclient;
 
-      let reqTracers = [];
-      let resTracers = [];
+  //     let reqTracers = [];
+  //     let resTracers = [];
 
-      httpclient.on('request', function(options) {
-        reqTracers.push(options.args.tracer);
-      });
+  //     httpclient.on('request', function(options) {
+  //       reqTracers.push(options.args.tracer);
+  //     });
 
-      httpclient.on('response', function(options) {
-        resTracers.push(options.req.args.tracer);
-      });
+  //     httpclient.on('response', function(options) {
+  //       resTracers.push(options.req.args.tracer);
+  //     });
 
-      let res = await httpclient.request(url, {
-        method: 'GET',
-        timeout: 20000,
-      });
-      assert(res.status === 200);
+  //     let res = await httpclient.request(url, {
+  //       method: 'GET',
+  //       timeout: 20000,
+  //     });
+  //     assert(res.status === 200);
 
-      res = await httpclient.request('https://github.com', {
-        method: 'GET',
-        timeout: 20000,
-      });
+  //     res = await httpclient.request('https://github.com', {
+  //       method: 'GET',
+  //       timeout: 20000,
+  //     });
 
-      assert(res.status === 200);
+  //     assert(res.status === 200);
 
-      res = await httpclient.request('https://www.npmjs.com', {
-        method: 'GET',
-        timeout: 20000,
-      });
-      assert(res.status === 200);
+  //     res = await httpclient.request('https://www.npmjs.com', {
+  //       method: 'GET',
+  //       timeout: 20000,
+  //     });
+  //     assert(res.status === 200);
 
-      assert(reqTracers.length === 3);
-      assert(resTracers.length === 3);
+  //     assert(reqTracers.length === 3);
+  //     assert(resTracers.length === 3);
 
-      assert(reqTracers[0] === reqTracers[1]);
-      assert(reqTracers[1] === reqTracers[2]);
+  //     assert(reqTracers[0] === reqTracers[1]);
+  //     assert(reqTracers[1] === reqTracers[2]);
 
-      assert(resTracers[0] === reqTracers[2]);
-      assert(resTracers[1] === resTracers[0]);
-      assert(resTracers[2] === resTracers[1]);
+  //     assert(resTracers[0] === reqTracers[2]);
+  //     assert(resTracers[1] === resTracers[0]);
+  //     assert(resTracers[2] === resTracers[1]);
 
-      assert(reqTracers[0].traceId);
+  //     assert(reqTracers[0].traceId);
 
-      reqTracers = [];
-      resTracers = [];
+  //     reqTracers = [];
+  //     resTracers = [];
 
-      await app.ready();
+  //     await app.ready();
 
-      res = await httpclient.request(url, {
-        method: 'GET',
-        timeout: 20000,
-      });
-      assert(res.status === 200);
+  //     res = await httpclient.request(url, {
+  //       method: 'GET',
+  //       timeout: 20000,
+  //     });
+  //     assert(res.status === 200);
 
-      res = await httpclient.request('https://github.com', {
-        method: 'GET',
-        timeout: 20000,
-      });
-      assert(res.status === 200);
+  //     res = await httpclient.request('https://github.com', {
+  //       method: 'GET',
+  //       timeout: 20000,
+  //     });
+  //     assert(res.status === 200);
 
-      res = await httpclient.request('https://www.npmjs.com', {
-        method: 'GET',
-        timeout: 20000,
-      });
-      assert(res.status === 200);
+  //     res = await httpclient.request('https://www.npmjs.com', {
+  //       method: 'GET',
+  //       timeout: 20000,
+  //     });
+  //     assert(res.status === 200);
 
-      assert(reqTracers.length === 3);
-      assert(resTracers.length === 3);
+  //     assert(reqTracers.length === 3);
+  //     assert(resTracers.length === 3);
 
-      assert(reqTracers[0] !== reqTracers[1]);
-      assert(reqTracers[1] !== reqTracers[2]);
+  //     assert(reqTracers[0] !== reqTracers[1]);
+  //     assert(reqTracers[1] !== reqTracers[2]);
 
-      assert(resTracers[0] !== reqTracers[2]);
-      assert(resTracers[1] !== resTracers[0]);
-      assert(resTracers[2] !== resTracers[1]);
+  //     assert(resTracers[0] !== reqTracers[2]);
+  //     assert(resTracers[1] !== resTracers[0]);
+  //     assert(resTracers[2] !== resTracers[1]);
 
-      assert(reqTracers[0].traceId);
-    });
-  });
+  //     assert(reqTracers[0].traceId);
+  //   });
+  // });
 
   describe('compatibility freeSocketKeepAliveTimeout', () => {
     it('should convert freeSocketKeepAliveTimeout to freeSocketTimeout', () => {
