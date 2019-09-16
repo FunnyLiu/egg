@@ -81,7 +81,7 @@ egg.js
 
 ### lib/start.js
 
-启动文件，初始化Agent和Application，建立关系，最后返回application。
+启动文件，基于agent.js和application.js初始化Agent和Application，建立关系，最后返回application。
 
 ![](./graphviz/lib_start.js.svg)
 
