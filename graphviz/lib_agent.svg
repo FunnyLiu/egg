@@ -1,0 +1,736 @@
+﻿
+                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="667" height="2413" shape-rendering="optimizeSpeed">
+                
+                <g>
+                   <rect x="50" y="65" width="248.4" height="30" rx="3" ry="3" style="fill:#90caf9; stroke:#444; stroke-width:1"></rect>
+                   <title>const path = require('path')</title>
+            <text x="65" y="85" font-family="monospace" font-size="13" fill="#222">
+                <tspan x="65" y="85">const path = require('path')</tspan>
+            </text>
+                   
+                   
+                </g>
+                <g>
+                   <rect x="50" y="113.5" width="217.2" height="30" rx="3" ry="3" style="fill:#90caf9; stroke:#444; stroke-width:1"></rect>
+                   <title>const ms = require('ms')</title>
+            <text x="65" y="133.5" font-family="monospace" font-size="13" fill="#222">
+                <tspan x="65" y="133.5">const ms = require('ms')</tspan>
+            </text>
+                   
+                   
+                </g>
+                <g>
+                   <rect x="50" y="162" width="334.2" height="30" rx="3" ry="3" style="fill:#90caf9; stroke:#444; stroke-width:1"></rect>
+                   <title>const EggApplication = require('./egg')</title>
+            <text x="65" y="182" font-family="monospace" font-size="13" fill="#222">
+                <tspan x="65" y="182">const EggApplication = require('./egg')</tspan>
+            </text>
+                   
+                   
+                </g>
+                <g>
+                   <rect x="50" y="210.5" width="443.4" height="30" rx="3" ry="3" style="fill:#90caf9; stroke:#444; stroke-width:1"></rect>
+                   <title>const AgentWorkerLoader = require('./loader').AgentWorkerLoader</title>
+            <text x="65" y="230.5" font-family="monospace" font-size="13" fill="#222">
+                <tspan x="65" y="230.5">const AgentWorkerLoader = require('./loader').Agen...</tspan>
+            </text>
+                   
+                   
+                </g>
+                <g>
+                   <rect x="50" y="259" width="365.4" height="30" rx="3" ry="3" style="fill:#90caf9; stroke:#444; stroke-width:1"></rect>
+                   <title>const EGG_LOADER = Symbol.for('egg#loader')</title>
+            <text x="65" y="279" font-family="monospace" font-size="13" fill="#222">
+                <tspan x="65" y="279">const EGG_LOADER = Symbol.for('egg#loader')</tspan>
+            </text>
+                   
+                   
+                </g>
+                <g>
+                   <rect x="50" y="307.5" width="357.59999999999997" height="30" rx="3" ry="3" style="fill:#90caf9; stroke:#444; stroke-width:1"></rect>
+                   <title>const EGG_PATH = Symbol.for('egg#eggPath')</title>
+            <text x="65" y="327.5" font-family="monospace" font-size="13" fill="#222">
+                <tspan x="65" y="327.5">const EGG_PATH = Symbol.for('egg#eggPath')</tspan>
+            </text>
+                   
+                   
+                </g>
+            <g>
+                <rect x="50" y="371" width="323" height="30" style="fill:#80cbc4; stroke:#444; stroke-width:1"></rect>
+                    
+                <line x1="60" y1="371" x2="60" y2="401" style="fill:#80cbc4; stroke:#444; stroke-width:1"></line>
+                <line x1="363" y1="371" x2="363" y2="401" style="fill:#80cbc4; stroke:#444; stroke-width:1"></line>
+             
+                <title>class Agent  extends EggApplication</title>
+            <text x="75" y="391" font-family="monospace" font-size="13" fill="#222">
+                <tspan x="75" y="391">class Agent  extends EggApplication</tspan>
+            </text>
+                
+            </g>
+            <g>
+                <rect x="87" y="419.5" width="245" height="30" style="fill:#a5d6a7; stroke:#444; stroke-width:1"></rect>
+                    
+                <line x1="97" y1="419.5" x2="97" y2="449.5" style="fill:#a5d6a7; stroke:#444; stroke-width:1"></line>
+                <line x1="322" y1="419.5" x2="322" y2="449.5" style="fill:#a5d6a7; stroke:#444; stroke-width:1"></line>
+             
+                <title>constructor(options = {})</title>
+            <text x="112" y="439.5" font-family="monospace" font-size="13" fill="#222">
+                <tspan x="112" y="439.5">constructor(options = {})</tspan>
+            </text>
+                
+            </g>
+                <g>
+                   <rect x="124" y="468" width="201.6" height="30" rx="3" ry="3" style="fill:#90caf9; stroke:#444; stroke-width:1"></rect>
+                   <title>options.type = 'agent'</title>
+            <text x="139" y="488" font-family="monospace" font-size="13" fill="#222">
+                <tspan x="139" y="488">options.type = 'agent'</tspan>
+            </text>
+                   
+                   
+                </g>
+                <g>
+                   <rect x="124" y="516.5" width="139.2" height="30" rx="2" ry="2" style="fill:#C5E1A5; stroke:#444; stroke-width:1"></rect>
+                   <title>super(options)</title>
+            <text x="139" y="536.5" font-family="monospace" font-size="13" fill="#222">
+                <tspan x="139" y="536.5">super(options)</tspan>
+            </text>
+                   
+                   
+                </g>
+                <g>
+                   <rect x="124" y="565" width="170.4" height="30" rx="2" ry="2" style="fill:#C5E1A5; stroke:#444; stroke-width:1"></rect>
+                   <title>this.loader.load()</title>
+            <text x="139" y="585" font-family="monospace" font-size="13" fill="#222">
+                <tspan x="139" y="585">this.loader.load()</tspan>
+            </text>
+                   
+                   
+                </g>
+                <g>
+                   <rect x="124" y="613.5" width="279.6" height="30" rx="3" ry="3" style="fill:#90caf9; stroke:#444; stroke-width:1"></rect>
+                   <title>const dumpStartTime = Date.now()</title>
+            <text x="139" y="633.5" font-family="monospace" font-size="13" fill="#222">
+                <tspan x="139" y="633.5">const dumpStartTime = Date.now()</tspan>
+            </text>
+                   
+                   
+                </g>
+                <g>
+                   <rect x="124" y="662" width="162.6" height="30" rx="2" ry="2" style="fill:#C5E1A5; stroke:#444; stroke-width:1"></rect>
+                   <title>this.dumpConfig()</title>
+            <text x="139" y="682" font-family="monospace" font-size="13" fill="#222">
+                <tspan x="139" y="682">this.dumpConfig()</tspan>
+            </text>
+                   
+                   
+                </g>
+                <g>
+                   <rect x="124" y="710.5" width="443.4" height="30" rx="2" ry="2" style="fill:#C5E1A5; stroke:#444; stroke-width:1"></rect>
+                   <title>this.coreLogger.info('[egg:core] dump config after load, %s', ms(Date.now() - dumpStartTime))</title>
+            <text x="139" y="730.5" font-family="monospace" font-size="13" fill="#222">
+                <tspan x="139" y="730.5">this.coreLogger.info('[egg:core] dump config after...</tspan>
+            </text>
+                   
+                   
+                </g>
+                <g>
+                   <rect x="124" y="759" width="318.59999999999997" height="30" rx="2" ry="2" style="fill:#C5E1A5; stroke:#444; stroke-width:1"></rect>
+                   <title>setInterval(*(), 24 * 60 * 60 * 1000)</title>
+            <text x="139" y="779" font-family="monospace" font-size="13" fill="#222">
+                <tspan x="139" y="779">setInterval(*(), 24 * 60 * 60 * 1000)</tspan>
+            </text>
+                   
+                   
+                </g>
+            <g>
+                <rect x="161" y="807.5" width="89" height="30" style="fill:#a5d6a7; stroke:#444; stroke-width:1"></rect>
+                    
+                <line x1="171" y1="807.5" x2="171" y2="837.5" style="fill:#a5d6a7; stroke:#444; stroke-width:1"></line>
+                <line x1="240" y1="807.5" x2="240" y2="837.5" style="fill:#a5d6a7; stroke:#444; stroke-width:1"></line>
+             
+                <title>() =&gt;</title>
+            <text x="186" y="827.5" font-family="monospace" font-size="13" fill="#222">
+                <tspan x="186" y="827.5">() =&gt;</tspan>
+            </text>
+                
+            </g>
+                <g>
+                   <rect x="124" y="856" width="443.4" height="30" rx="3" ry="3" style="fill:#90caf9; stroke:#444; stroke-width:1"></rect>
+                   <title>this._uncaughtExceptionHandler = this._uncaughtExceptionHandler.bind(this)</title>
+            <text x="139" y="876" font-family="monospace" font-size="13" fill="#222">
+                <tspan x="139" y="876">this._uncaughtExceptionHandler = this._uncaughtExc...</tspan>
+            </text>
+                   
+                   
+                </g>
+                <g>
+                   <rect x="124" y="904.5" width="443.4" height="30" rx="2" ry="2" style="fill:#C5E1A5; stroke:#444; stroke-width:1"></rect>
+                   <title>process.on('uncaughtException', this._uncaughtExceptionHandler)</title>
+            <text x="139" y="924.5" font-family="monospace" font-size="13" fill="#222">
+                <tspan x="139" y="924.5">process.on('uncaughtException', this._uncaughtExce...</tspan>
+            </text>
+                   
+                   
+                </g>
+            <g>
+                <rect x="87" y="968" width="284" height="30" style="fill:#a5d6a7; stroke:#444; stroke-width:1"></rect>
+                    
+                <line x1="97" y1="968" x2="97" y2="998" style="fill:#a5d6a7; stroke:#444; stroke-width:1"></line>
+                <line x1="361" y1="968" x2="361" y2="998" style="fill:#a5d6a7; stroke:#444; stroke-width:1"></line>
+             
+                <title>_uncaughtExceptionHandler(err)</title>
+            <text x="112" y="988" font-family="monospace" font-size="13" fill="#222">
+                <tspan x="112" y="988">_uncaughtExceptionHandler(err)</tspan>
+            </text>
+                
+            </g><g>
+            <rect x="154" y="1031.5" width="255" height="30" rx="3" ry="3" style="fill:#ce93d8; stroke:#444; stroke-width:1"></rect>                
+            <polygon points="124,1046.5 154,1016.5 184,1046.5 154,1076.5" style="fill:#ce93d8; stroke:#444; stroke-width:1"></polygon>
+            <title>(!(err instanceof Error))</title>
+            <text x="199" y="1051.5" font-family="monospace" font-size="13" fill="#222">
+                <tspan x="199" y="1051.5">(!(err instanceof Error))</tspan>
+            </text>
+            
+            <text x="146.2" y="1051.5" font-family="monospace" font-size="13" fill="#222">if</text> <text x="161.8" y="1078.45" font-family="monospace" font-size="13" fill="#222">+</text> 
+        </g>
+                <g>
+                   <rect x="174" y="1086.5" width="217.2" height="30" rx="3" ry="3" style="fill:#90caf9; stroke:#444; stroke-width:1"></rect>
+                   <title>err = Error(String(err))</title>
+            <text x="189" y="1106.5" font-family="monospace" font-size="13" fill="#222">
+                <tspan x="189" y="1106.5">err = Error(String(err))</tspan>
+            </text>
+                   
+                   
+                </g><g>
+            <rect x="154" y="1151.5" width="231.60000000000002" height="30" rx="3" ry="3" style="fill:#ce93d8; stroke:#444; stroke-width:1"></rect>                
+            <polygon points="124,1166.5 154,1136.5 184,1166.5 154,1196.5" style="fill:#ce93d8; stroke:#444; stroke-width:1"></polygon>
+            <title>(err.name === 'Error')</title>
+            <text x="199" y="1171.5" font-family="monospace" font-size="13" fill="#222">
+                <tspan x="199" y="1171.5">(err.name === 'Error')</tspan>
+            </text>
+            
+            <text x="146.2" y="1171.5" font-family="monospace" font-size="13" fill="#222">if</text> <text x="161.8" y="1198.45" font-family="monospace" font-size="13" fill="#222">+</text> 
+        </g>
+                <g>
+                   <rect x="174" y="1206.5" width="310.8" height="30" rx="3" ry="3" style="fill:#90caf9; stroke:#444; stroke-width:1"></rect>
+                   <title>err.name = 'unhandledExceptionError'</title>
+            <text x="189" y="1226.5" font-family="monospace" font-size="13" fill="#222">
+                <tspan x="189" y="1226.5">err.name = 'unhandledExceptionError'</tspan>
+            </text>
+                   
+                   
+                </g>
+                <g>
+                   <rect x="124" y="1256.5" width="232.79999999999998" height="30" rx="2" ry="2" style="fill:#C5E1A5; stroke:#444; stroke-width:1"></rect>
+                   <title>this.coreLogger.error(err)</title>
+            <text x="139" y="1276.5" font-family="monospace" font-size="13" fill="#222">
+                <tspan x="139" y="1276.5">this.coreLogger.error(err)</tspan>
+            </text>
+                   
+                   
+                </g>
+            <g>
+                <rect x="87" y="1320" width="143.6" height="30" style="fill:#a5d6a7; stroke:#444; stroke-width:1"></rect>
+                    
+                <line x1="97" y1="1320" x2="97" y2="1350" style="fill:#a5d6a7; stroke:#444; stroke-width:1"></line>
+                <line x1="220.6" y1="1320" x2="220.6" y2="1350" style="fill:#a5d6a7; stroke:#444; stroke-width:1"></line>
+             
+                <title>EGG_LOADER()</title>
+            <text x="112" y="1340" font-family="monospace" font-size="13" fill="#222">
+                <tspan x="112" y="1340">EGG_LOADER()</tspan>
+            </text>
+                
+            </g>
+            <g>
+                <rect x="124" y="1368.5" width="217.2" height="30" rx="3" ry="3" style="fill:#90caf9; stroke:#444; stroke-width:1"></rect>
+                
+                <line x1="341.2" y1="1378.5" x2="346.2" y2="1378.5" style="fill:#a5d6a7; stroke:#444; stroke-width:1"></line>
+                
+                <line x1="341.2" y1="1388.5" x2="346.2" y2="1388.5" style="fill:#a5d6a7; stroke:#444; stroke-width:1"></line>
+
+                <path d="M346.2, 1372.5 L362.2, 1383.5 L346.2, 1394.5 Z" fill="#a5d6a7" stroke="#444" stroke-width="1"></path>
+                             
+                <title>return AgentWorkerLoader</title>
+            <text x="139" y="1388.5" font-family="monospace" font-size="13" fill="#222">
+                <tspan x="139" y="1388.5">return AgentWorkerLoader</tspan>
+            </text>
+                
+            </g>
+            <g>
+                <rect x="87" y="1432" width="128" height="30" style="fill:#a5d6a7; stroke:#444; stroke-width:1"></rect>
+                    
+                <line x1="97" y1="1432" x2="97" y2="1462" style="fill:#a5d6a7; stroke:#444; stroke-width:1"></line>
+                <line x1="205" y1="1432" x2="205" y2="1462" style="fill:#a5d6a7; stroke:#444; stroke-width:1"></line>
+             
+                <title>EGG_PATH()</title>
+            <text x="112" y="1452" font-family="monospace" font-size="13" fill="#222">
+                <tspan x="112" y="1452">EGG_PATH()</tspan>
+            </text>
+                
+            </g>
+            <g>
+                <rect x="124" y="1480.5" width="287.4" height="30" rx="3" ry="3" style="fill:#90caf9; stroke:#444; stroke-width:1"></rect>
+                
+                <line x1="411.4" y1="1490.5" x2="416.4" y2="1490.5" style="fill:#a5d6a7; stroke:#444; stroke-width:1"></line>
+                
+                <line x1="411.4" y1="1500.5" x2="416.4" y2="1500.5" style="fill:#a5d6a7; stroke:#444; stroke-width:1"></line>
+
+                <path d="M416.4, 1484.5 L432.4, 1495.5 L416.4, 1506.5 Z" fill="#a5d6a7" stroke="#444" stroke-width="1"></path>
+                             
+                <title>return path.join(__dirname, '..')</title>
+            <text x="139" y="1500.5" font-family="monospace" font-size="13" fill="#222">
+                <tspan x="139" y="1500.5">return path.join(__dirname, '..')</tspan>
+            </text>
+                
+            </g>
+            <g>
+                <rect x="87" y="1544" width="174.8" height="30" style="fill:#a5d6a7; stroke:#444; stroke-width:1"></rect>
+                    
+                <line x1="97" y1="1544" x2="97" y2="1574" style="fill:#a5d6a7; stroke:#444; stroke-width:1"></line>
+                <line x1="251.8" y1="1544" x2="251.8" y2="1574" style="fill:#a5d6a7; stroke:#444; stroke-width:1"></line>
+             
+                <title>_wrapMessenger()</title>
+            <text x="112" y="1564" font-family="monospace" font-size="13" fill="#222">
+                <tspan x="112" y="1564">_wrapMessenger()</tspan>
+            </text>
+                
+            </g><g>
+
+            <rect x="154" y="1627.5" width="473.4" height="30" rx="3" ry="3" style="fill:#b39ddb; stroke:#444; stroke-width:1"></rect>
+            <polygon points="124,1642.5 154,1612.5 184,1642.5 154,1672.5" style="fill:#b39ddb; stroke:#444; stroke-width:1"></polygon>
+                
+            <title> methodName of ['broadcast', 'sendTo', 'sendToApp', 'sendToAgent', 'sendRandom']</title>
+            <text x="199" y="1647.5" font-family="monospace" font-size="13" fill="#222">
+                <tspan x="199" y="1647.5"> methodName of ['broadcast', 'sendTo', 'sendToApp'...</tspan>
+            </text>
+            
+            <text x="142.3" y="1647.5" font-family="monospace" font-size="13" fill="#222">for</text>
+        </g>
+                <g>
+                   <rect x="174" y="1682.5" width="443.4" height="30" rx="2" ry="2" style="fill:#C5E1A5; stroke:#444; stroke-width:1"></rect>
+                   <title>wrapMethod(methodName, this.messenger, this.coreLogger)</title>
+            <text x="189" y="1702.5" font-family="monospace" font-size="13" fill="#222">
+                <tspan x="189" y="1702.5">wrapMethod(methodName, this.messenger, this.coreLo...</tspan>
+            </text>
+                   
+                   
+                </g>
+            <g>
+                <rect x="124" y="1746" width="440" height="30" style="fill:#a5d6a7; stroke:#444; stroke-width:1"></rect>
+                    
+                <line x1="134" y1="1746" x2="134" y2="1776" style="fill:#a5d6a7; stroke:#444; stroke-width:1"></line>
+                <line x1="554" y1="1746" x2="554" y2="1776" style="fill:#a5d6a7; stroke:#444; stroke-width:1"></line>
+             
+                <title>function wrapMethod(methodName, messenger, logger)</title>
+            <text x="149" y="1766" font-family="monospace" font-size="13" fill="#222">
+                <tspan x="149" y="1766">function wrapMethod(methodName, messenger, logger)</tspan>
+            </text>
+                
+            </g>
+                <g>
+                   <rect x="161" y="1794.5" width="357.59999999999997" height="30" rx="3" ry="3" style="fill:#90caf9; stroke:#444; stroke-width:1"></rect>
+                   <title>const originMethod = messenger[methodName]</title>
+            <text x="176" y="1814.5" font-family="monospace" font-size="13" fill="#222">
+                <tspan x="176" y="1814.5">const originMethod = messenger[methodName]</tspan>
+            </text>
+                   
+                   
+                </g>
+            <g>
+                <rect x="161" y="1858" width="315.2" height="30" style="fill:#a5d6a7; stroke:#444; stroke-width:1"></rect>
+                    
+                <line x1="171" y1="1858" x2="171" y2="1888" style="fill:#a5d6a7; stroke:#444; stroke-width:1"></line>
+                <line x1="466.2" y1="1858" x2="466.2" y2="1888" style="fill:#a5d6a7; stroke:#444; stroke-width:1"></line>
+             
+                <title>messenger[methodName] = function()</title>
+            <text x="186" y="1878" font-family="monospace" font-size="13" fill="#222">
+                <tspan x="186" y="1878">messenger[methodName] = function()</tspan>
+            </text>
+                
+            </g>
+                <g>
+                   <rect x="198" y="1906.5" width="256.2" height="30" rx="3" ry="3" style="fill:#90caf9; stroke:#444; stroke-width:1"></rect>
+                   <title>const stack = [object Object]</title>
+            <text x="213" y="1926.5" font-family="monospace" font-size="13" fill="#222">
+                <tspan x="213" y="1926.5">const stack = [object Object]</tspan>
+            </text>
+                   
+                   
+                </g>
+                <g>
+                   <rect x="198" y="1955" width="443.4" height="30" rx="2" ry="2" style="fill:#C5E1A5; stroke:#444; stroke-width:1"></rect>
+                   <title>logger.warn('agent can't call %s before server started
+%s', methodName, stack)</title>
+            <text x="213" y="1975" font-family="monospace" font-size="13" fill="#222">
+                <tspan x="213" y="1975">logger.warn('agent can't call %s before server sta...</tspan>
+            </text>
+                   
+                   
+                </g>
+                <g>
+                   <rect x="198" y="2003.5" width="303" height="30" rx="2" ry="2" style="fill:#C5E1A5; stroke:#444; stroke-width:1"></rect>
+                   <title>originMethod.apply(this, arguments)</title>
+            <text x="213" y="2023.5" font-family="monospace" font-size="13" fill="#222">
+                <tspan x="213" y="2023.5">originMethod.apply(this, arguments)</tspan>
+            </text>
+                   
+                   
+                </g>
+                <g>
+                   <rect x="161" y="2052" width="396.59999999999997" height="30" rx="2" ry="2" style="fill:#C5E1A5; stroke:#444; stroke-width:1"></rect>
+                   <title>messenger.prependOnceListener('egg-ready', *())</title>
+            <text x="176" y="2072" font-family="monospace" font-size="13" fill="#222">
+                <tspan x="176" y="2072">messenger.prependOnceListener('egg-ready', *())</tspan>
+            </text>
+                   
+                   
+                </g>
+            <g>
+                <rect x="198" y="2100.5" width="89" height="30" style="fill:#a5d6a7; stroke:#444; stroke-width:1"></rect>
+                    
+                <line x1="208" y1="2100.5" x2="208" y2="2130.5" style="fill:#a5d6a7; stroke:#444; stroke-width:1"></line>
+                <line x1="277" y1="2100.5" x2="277" y2="2130.5" style="fill:#a5d6a7; stroke:#444; stroke-width:1"></line>
+             
+                <title>() =&gt;</title>
+            <text x="223" y="2120.5" font-family="monospace" font-size="13" fill="#222">
+                <tspan x="223" y="2120.5">() =&gt;</tspan>
+            </text>
+                
+            </g>
+                <g>
+                   <rect x="235" y="2149" width="310.8" height="30" rx="3" ry="3" style="fill:#90caf9; stroke:#444; stroke-width:1"></rect>
+                   <title>messenger[methodName] = originMethod</title>
+            <text x="250" y="2169" font-family="monospace" font-size="13" fill="#222">
+                <tspan x="250" y="2169">messenger[methodName] = originMethod</tspan>
+            </text>
+                   
+                   
+                </g>
+            <g>
+                <rect x="87" y="2212.5" width="104.6" height="30" style="fill:#a5d6a7; stroke:#444; stroke-width:1"></rect>
+                    
+                <line x1="97" y1="2212.5" x2="97" y2="2242.5" style="fill:#a5d6a7; stroke:#444; stroke-width:1"></line>
+                <line x1="181.6" y1="2212.5" x2="181.6" y2="2242.5" style="fill:#a5d6a7; stroke:#444; stroke-width:1"></line>
+             
+                <title>close()</title>
+            <text x="112" y="2232.5" font-family="monospace" font-size="13" fill="#222">
+                <tspan x="112" y="2232.5">close()</tspan>
+            </text>
+                
+            </g>
+                <g>
+                   <rect x="124" y="2261" width="443.4" height="30" rx="2" ry="2" style="fill:#C5E1A5; stroke:#444; stroke-width:1"></rect>
+                   <title>process.removeListener('uncaughtException', this._uncaughtExceptionHandler)</title>
+            <text x="139" y="2281" font-family="monospace" font-size="13" fill="#222">
+                <tspan x="139" y="2281">process.removeListener('uncaughtException', this._...</tspan>
+            </text>
+                   
+                   
+                </g>
+            <g>
+                <rect x="124" y="2309.5" width="186" height="30" rx="3" ry="3" style="fill:#90caf9; stroke:#444; stroke-width:1"></rect>
+                
+                <line x1="310" y1="2319.5" x2="315" y2="2319.5" style="fill:#a5d6a7; stroke:#444; stroke-width:1"></line>
+                
+                <line x1="310" y1="2329.5" x2="315" y2="2329.5" style="fill:#a5d6a7; stroke:#444; stroke-width:1"></line>
+
+                <path d="M315, 2313.5 L331, 2324.5 L315, 2335.5 Z" fill="#a5d6a7" stroke="#444" stroke-width="1"></path>
+                             
+                <title>return super.close()</title>
+            <text x="139" y="2329.5" font-family="monospace" font-size="13" fill="#222">
+                <tspan x="139" y="2329.5">return super.close()</tspan>
+            </text>
+                
+            </g>
+                <g>
+                   <rect x="50" y="2358" width="201.6" height="30" rx="3" ry="3" style="fill:#90caf9; stroke:#444; stroke-width:1"></rect>
+                   <title>module.exports = Agent</title>
+            <text x="65" y="2378" font-family="monospace" font-size="13" fill="#222">
+                <tspan x="65" y="2378">module.exports = Agent</tspan>
+            </text>
+                   
+                   
+                </g>
+            <g>
+               <rect x="25" y="13.75" width="216.6" height="24" style="fill:#fff59d; stroke:#444; stroke-width:1"></rect>
+               <circle cx="25" cy="25" r="15" style="fill:#fff59d; stroke:#444; stroke-width:1"></circle>
+               <title>Program: source module</title>
+            <text x="55" y="30" font-family="monospace" font-size="13" fill="#222">
+                <tspan x="55" y="30">Program: source module</tspan>
+            </text>
+            </g>
+            <g>
+               <path d="M25, 40 L25 76 Q25 80
+                29 80
+                L42 80 " style="fill:none; stroke:#444; stroke-width:1"></path>
+               <path d="M42, 77 L50, 80 L42, 83 Z" fill="#333"></path>
+            </g>
+            <g>
+               <path d="M25, 40 L25 124.5 Q25 128.5
+                29 128.5
+                L42 128.5 " style="fill:none; stroke:#444; stroke-width:1"></path>
+               <path d="M42, 125.5 L50, 128.5 L42, 131.5 Z" fill="#333"></path>
+            </g>
+            <g>
+               <path d="M25, 40 L25 173 Q25 177
+                29 177
+                L42 177 " style="fill:none; stroke:#444; stroke-width:1"></path>
+               <path d="M42, 174 L50, 177 L42, 180 Z" fill="#333"></path>
+            </g>
+            <g>
+               <path d="M25, 40 L25 221.5 Q25 225.5
+                29 225.5
+                L42 225.5 " style="fill:none; stroke:#444; stroke-width:1"></path>
+               <path d="M42, 222.5 L50, 225.5 L42, 228.5 Z" fill="#333"></path>
+            </g>
+            <g>
+               <path d="M25, 40 L25 270 Q25 274
+                29 274
+                L42 274 " style="fill:none; stroke:#444; stroke-width:1"></path>
+               <path d="M42, 271 L50, 274 L42, 277 Z" fill="#333"></path>
+            </g>
+            <g>
+               <path d="M25, 40 L25 318.5 Q25 322.5
+                29 322.5
+                L42 322.5 " style="fill:none; stroke:#444; stroke-width:1"></path>
+               <path d="M42, 319.5 L50, 322.5 L42, 325.5 Z" fill="#333"></path>
+            </g>
+            <g>
+               <path d="M25, 40 L25 382 Q25 386
+                29 386
+                L42 386 " style="fill:none; stroke:#444; stroke-width:1"></path>
+               <path d="M42, 383 L50, 386 L42, 389 Z" fill="#333"></path>
+            </g>
+            <g>
+               <path d="M68.5, 401 L68.5 430.5 Q68.5 434.5
+                72.5 434.5
+                L79 434.5 " style="fill:none; stroke:#444; stroke-width:1"></path>
+               <path d="M79, 431.5 L87, 434.5 L79, 437.5 Z" fill="#333"></path>
+            </g>
+            <g>
+               <path d="M105.5, 449.5 L105.5 479 Q105.5 483
+                109.5 483
+                L116 483 " style="fill:none; stroke:#444; stroke-width:1"></path>
+               <path d="M116, 480 L124, 483 L116, 486 Z" fill="#333"></path>
+            </g>
+            <g>
+               <path d="M105.5, 449.5 L105.5 527.5 Q105.5 531.5
+                109.5 531.5
+                L116 531.5 " style="fill:none; stroke:#444; stroke-width:1"></path>
+               <path d="M116, 528.5 L124, 531.5 L116, 534.5 Z" fill="#333"></path>
+            </g>
+            <g>
+               <path d="M105.5, 449.5 L105.5 576 Q105.5 580
+                109.5 580
+                L116 580 " style="fill:none; stroke:#444; stroke-width:1"></path>
+               <path d="M116, 577 L124, 580 L116, 583 Z" fill="#333"></path>
+            </g>
+            <g>
+               <path d="M105.5, 449.5 L105.5 624.5 Q105.5 628.5
+                109.5 628.5
+                L116 628.5 " style="fill:none; stroke:#444; stroke-width:1"></path>
+               <path d="M116, 625.5 L124, 628.5 L116, 631.5 Z" fill="#333"></path>
+            </g>
+            <g>
+               <path d="M105.5, 449.5 L105.5 673 Q105.5 677
+                109.5 677
+                L116 677 " style="fill:none; stroke:#444; stroke-width:1"></path>
+               <path d="M116, 674 L124, 677 L116, 680 Z" fill="#333"></path>
+            </g>
+            <g>
+               <path d="M105.5, 449.5 L105.5 721.5 Q105.5 725.5
+                109.5 725.5
+                L116 725.5 " style="fill:none; stroke:#444; stroke-width:1"></path>
+               <path d="M116, 722.5 L124, 725.5 L116, 728.5 Z" fill="#333"></path>
+            </g>
+            <g>
+               <path d="M105.5, 449.5 L105.5 770 Q105.5 774
+                109.5 774
+                L116 774 " style="fill:none; stroke:#444; stroke-width:1"></path>
+               <path d="M116, 771 L124, 774 L116, 777 Z" fill="#333"></path>
+            </g>
+            <g>
+               <path d="M142.5, 789 L142.5 818.5 Q142.5 822.5
+                146.5 822.5
+                L161 822.5 " style="fill:none; stroke:#444; stroke-width:1"></path>
+               false
+            </g>
+            <g>
+               <path d="M105.5, 449.5 L105.5 867 Q105.5 871
+                109.5 871
+                L116 871 " style="fill:none; stroke:#444; stroke-width:1"></path>
+               <path d="M116, 868 L124, 871 L116, 874 Z" fill="#333"></path>
+            </g>
+            <g>
+               <path d="M105.5, 449.5 L105.5 915.5 Q105.5 919.5
+                109.5 919.5
+                L116 919.5 " style="fill:none; stroke:#444; stroke-width:1"></path>
+               <path d="M116, 916.5 L124, 919.5 L116, 922.5 Z" fill="#333"></path>
+            </g>
+            <g>
+               <path d="M68.5, 401 L68.5 979 Q68.5 983
+                72.5 983
+                L79 983 " style="fill:none; stroke:#444; stroke-width:1"></path>
+               <path d="M79, 980 L87, 983 L79, 986 Z" fill="#333"></path>
+            </g>
+            <g>
+               <path d="M105.5, 998 L105.5 1042.5 Q105.5 1046.5
+                109.5 1046.5
+                L116 1046.5 " style="fill:none; stroke:#444; stroke-width:1"></path>
+               <path d="M116, 1043.5 L124, 1046.5 L116, 1049.5 Z" fill="#333"></path>
+            </g>
+            <g>
+               <path d="M154, 1076.5 L154 1097.5 Q154 1101.5
+                158 1101.5
+                L166 1101.5 " style="fill:none; stroke:#444; stroke-width:1"></path>
+               <path d="M166, 1098.5 L174, 1101.5 L166, 1104.5 Z" fill="#333"></path>
+            </g>
+            <g>
+               <path d="M105.5, 998 L105.5 1162.5 Q105.5 1166.5
+                109.5 1166.5
+                L116 1166.5 " style="fill:none; stroke:#444; stroke-width:1"></path>
+               <path d="M116, 1163.5 L124, 1166.5 L116, 1169.5 Z" fill="#333"></path>
+            </g>
+            <g>
+               <path d="M154, 1196.5 L154 1217.5 Q154 1221.5
+                158 1221.5
+                L166 1221.5 " style="fill:none; stroke:#444; stroke-width:1"></path>
+               <path d="M166, 1218.5 L174, 1221.5 L166, 1224.5 Z" fill="#333"></path>
+            </g>
+            <g>
+               <path d="M105.5, 998 L105.5 1267.5 Q105.5 1271.5
+                109.5 1271.5
+                L116 1271.5 " style="fill:none; stroke:#444; stroke-width:1"></path>
+               <path d="M116, 1268.5 L124, 1271.5 L116, 1274.5 Z" fill="#333"></path>
+            </g>
+            <g>
+               <path d="M68.5, 401 L68.5 1331 Q68.5 1335
+                72.5 1335
+                L79 1335 " style="fill:none; stroke:#444; stroke-width:1"></path>
+               <path d="M79, 1332 L87, 1335 L79, 1338 Z" fill="#333"></path>
+            </g>
+            <g>
+               <path d="M105.5, 1350 L105.5 1379.5 Q105.5 1383.5
+                109.5 1383.5
+                L116 1383.5 " style="fill:none; stroke:#444; stroke-width:1"></path>
+               <path d="M116, 1380.5 L124, 1383.5 L116, 1386.5 Z" fill="#333"></path>
+            </g>
+            <g>
+               <path d="M68.5, 401 L68.5 1443 Q68.5 1447
+                72.5 1447
+                L79 1447 " style="fill:none; stroke:#444; stroke-width:1"></path>
+               <path d="M79, 1444 L87, 1447 L79, 1450 Z" fill="#333"></path>
+            </g>
+            <g>
+               <path d="M105.5, 1462 L105.5 1491.5 Q105.5 1495.5
+                109.5 1495.5
+                L116 1495.5 " style="fill:none; stroke:#444; stroke-width:1"></path>
+               <path d="M116, 1492.5 L124, 1495.5 L116, 1498.5 Z" fill="#333"></path>
+            </g>
+            <g>
+               <path d="M68.5, 401 L68.5 1555 Q68.5 1559
+                72.5 1559
+                L79 1559 " style="fill:none; stroke:#444; stroke-width:1"></path>
+               <path d="M79, 1556 L87, 1559 L79, 1562 Z" fill="#333"></path>
+            </g>
+            <g>
+               <path d="M105.5, 1574 L105.5 1638.5 Q105.5 1642.5
+                109.5 1642.5
+                L116 1642.5 " style="fill:none; stroke:#444; stroke-width:1"></path>
+               <path d="M116, 1639.5 L124, 1642.5 L116, 1645.5 Z" fill="#333"></path>
+            </g>
+            <g>
+               <path d="M154, 1672.5 L154 1693.5 Q154 1697.5
+                158 1697.5
+                L166 1697.5 " style="fill:none; stroke:#444; stroke-width:1"></path>
+               <path d="M166, 1694.5 L174, 1697.5 L166, 1700.5 Z" fill="#333"></path>
+            </g>
+            <g>
+               <path d="M617.4, 1697.5 L643.4 1697.5  Q647.4 1697.5
+                647.4 1693.5
+                L647.4 1600.5 Q647.4 1592.5
+                643.4 1592.5
+                L162 1592.5  Q154 1592.5
+                154 1596.5
+                L154 1604.5" style="fill:none; stroke:#444; stroke-width:1"></path>
+               <path d="M151, 1604.5 L154, 1612.5 L157, 1604.5 Z" fill="#333"></path>
+            </g>
+            <g>
+               <path d="M105.5, 1574 L105.5 1757 Q105.5 1761
+                109.5 1761
+                L116 1761 " style="fill:none; stroke:#444; stroke-width:1"></path>
+               <path d="M116, 1758 L124, 1761 L116, 1764 Z" fill="#333"></path>
+            </g>
+            <g>
+               <path d="M142.5, 1776 L142.5 1805.5 Q142.5 1809.5
+                146.5 1809.5
+                L153 1809.5 " style="fill:none; stroke:#444; stroke-width:1"></path>
+               <path d="M153, 1806.5 L161, 1809.5 L153, 1812.5 Z" fill="#333"></path>
+            </g>
+            <g>
+               <path d="M142.5, 1776 L142.5 1869 Q142.5 1873
+                146.5 1873
+                L153 1873 " style="fill:none; stroke:#444; stroke-width:1"></path>
+               <path d="M153, 1870 L161, 1873 L153, 1876 Z" fill="#333"></path>
+            </g>
+            <g>
+               <path d="M179.5, 1888 L179.5 1917.5 Q179.5 1921.5
+                183.5 1921.5
+                L190 1921.5 " style="fill:none; stroke:#444; stroke-width:1"></path>
+               <path d="M190, 1918.5 L198, 1921.5 L190, 1924.5 Z" fill="#333"></path>
+            </g>
+            <g>
+               <path d="M179.5, 1888 L179.5 1966 Q179.5 1970
+                183.5 1970
+                L190 1970 " style="fill:none; stroke:#444; stroke-width:1"></path>
+               <path d="M190, 1967 L198, 1970 L190, 1973 Z" fill="#333"></path>
+            </g>
+            <g>
+               <path d="M179.5, 1888 L179.5 2014.5 Q179.5 2018.5
+                183.5 2018.5
+                L190 2018.5 " style="fill:none; stroke:#444; stroke-width:1"></path>
+               <path d="M190, 2015.5 L198, 2018.5 L190, 2021.5 Z" fill="#333"></path>
+            </g>
+            <g>
+               <path d="M142.5, 1776 L142.5 2063 Q142.5 2067
+                146.5 2067
+                L153 2067 " style="fill:none; stroke:#444; stroke-width:1"></path>
+               <path d="M153, 2064 L161, 2067 L153, 2070 Z" fill="#333"></path>
+            </g>
+            <g>
+               <path d="M179.5, 2082 L179.5 2111.5 Q179.5 2115.5
+                183.5 2115.5
+                L198 2115.5 " style="fill:none; stroke:#444; stroke-width:1"></path>
+               false
+            </g>
+            <g>
+               <path d="M216.5, 2130.5 L216.5 2160 Q216.5 2164
+                220.5 2164
+                L227 2164 " style="fill:none; stroke:#444; stroke-width:1"></path>
+               <path d="M227, 2161 L235, 2164 L227, 2167 Z" fill="#333"></path>
+            </g>
+            <g>
+               <path d="M68.5, 401 L68.5 2223.5 Q68.5 2227.5
+                72.5 2227.5
+                L79 2227.5 " style="fill:none; stroke:#444; stroke-width:1"></path>
+               <path d="M79, 2224.5 L87, 2227.5 L79, 2230.5 Z" fill="#333"></path>
+            </g>
+            <g>
+               <path d="M105.5, 2242.5 L105.5 2272 Q105.5 2276
+                109.5 2276
+                L116 2276 " style="fill:none; stroke:#444; stroke-width:1"></path>
+               <path d="M116, 2273 L124, 2276 L116, 2279 Z" fill="#333"></path>
+            </g>
+            <g>
+               <path d="M105.5, 2242.5 L105.5 2320.5 Q105.5 2324.5
+                109.5 2324.5
+                L116 2324.5 " style="fill:none; stroke:#444; stroke-width:1"></path>
+               <path d="M116, 2321.5 L124, 2324.5 L116, 2327.5 Z" fill="#333"></path>
+            </g>
+            <g>
+               <path d="M25, 40 L25 2369 Q25 2373
+                29 2373
+                L42 2373 " style="fill:none; stroke:#444; stroke-width:1"></path>
+               <path d="M42, 2370 L50, 2373 L42, 2376 Z" fill="#333"></path>
+            </g>
+            </svg>
