@@ -1,76 +1,106 @@
-![](https://raw.githubusercontent.com/eggjs/egg/master/docs/assets/egg-logo.png)
+# 源码分析
 
-Born to build better enterprise frameworks and apps
+## 文件结构
 
-[![NPM version][npm-image]][npm-url]
-[![NPM quality][quality-image]][quality-url]
-[![build status][travis-image]][travis-url]
-[![Test coverage][codecov-image]][codecov-url]
-[![David deps][david-image]][david-url]
-[![Known Vulnerabilities][snyk-image]][snyk-url]
-[![NPM download][download-image]][download-url]
-[![Gitter][gitter-image]][gitter-url]
-
-[npm-image]: https://img.shields.io/npm/v/egg.svg?style=flat-square
-[npm-url]: https://npmjs.org/package/egg
-[quality-image]: http://npm.packagequality.com/shield/egg.svg?style=flat-square
-[quality-url]: http://packagequality.com/#?package=egg
-[travis-image]: https://img.shields.io/travis/eggjs/egg.svg?style=flat-square
-[travis-url]: https://travis-ci.org/eggjs/egg
-[codecov-image]: https://img.shields.io/codecov/c/github/eggjs/egg.svg?style=flat-square
-[codecov-url]: https://codecov.io/gh/eggjs/egg
-[david-image]: https://img.shields.io/david/eggjs/egg.svg?style=flat-square
-[david-url]: https://david-dm.org/eggjs/egg
-[snyk-image]: https://snyk.io/test/npm/egg/badge.svg?style=flat-square
-[snyk-url]: https://snyk.io/test/npm/egg
-[download-image]: https://img.shields.io/npm/dm/egg.svg?style=flat-square
-[download-url]: https://npmjs.org/package/egg
-[gitter-image]: https://img.shields.io/gitter/room/eggjs/egg.svg?style=flat-square
-[gitter-url]: https://gitter.im/eggjs/egg
-
-## Installation
-
-```bash
-$ npm install egg --save
+``` bash
+├── agent.js
+├── app
+|  ├── extend
+|  |  ├── context.js
+|  |  ├── helper.js
+|  |  ├── request.js
+|  |  └── response.js
+|  └── middleware
+|     ├── body_parser.js
+|     ├── meta.js
+|     ├── notfound.js
+|     ├── override_method.js
+|     └── site_file.js
+├── appveyor.yml - 持续集成CI文件
+├── config
+|  ├── config.default.js
+|  ├── config.local.js
+|  ├── config.unittest.js
+|  ├── favicon.png
+|  └── plugin.js
+├── index.d.ts - 声明文件
+├── index.js - 入口文件
+├── lib
+|  ├── agent.js
+|  ├── application.js
+|  ├── core
+|  |  ├── base_context_class.js
+|  |  ├── base_context_logger.js
+|  |  ├── base_hook_class.js
+|  |  ├── context_httpclient.js
+|  |  ├── dnscache_httpclient.js
+|  |  ├── httpclient.js
+|  |  ├── logger.js
+|  |  ├── messenger
+|  |  |  ├── index.js - 单进程模型使用local.js，多进程模型使用pid。
+|  |  |  ├── ipc.js - 用于给子进程进行通信，底层基于sendmessage模块，基于subprocess.send来进行通信。
+|  |  |  └── local.js - 用于当前进程内部通信，基于EventEmitter封装了一个通信管理messennger
+|  |  ├── singleton.js
+|  |  └── utils.js
+|  ├── egg.js
+|  ├── jsdoc
+|  |  ├── context.jsdoc
+|  |  ├── request.jsdoc
+|  |  └── response.jsdoc
+|  ├── loader
+|  |  ├── agent_worker_loader.js
+|  |  ├── app_worker_loader.js
+|  |  └── index.js
+|  └── start.js - 启动文件，初始化Agent和Application，建立关系
+├── scripts
+|  ├── commits.sh
+|  ├── deploy_key.enc
+|  └── doc_travis.sh
 ```
 
-Node.js >= 8.0.0 required.
+## 模块依赖关系
 
-## Features
+egg.js
+对外模块依赖
 
-- ✔︎ Built-in process management
-- ✔︎ Plugin system
-- ✔︎ Framework customization
-- ✔︎ Lots of [plugins](https://github.com/search?q=topic%3Aegg-plugin&type=Repositories)
+![](./graphviz/egg.svg)
 
-## Docs & Community
+对内模块依赖
 
-- [Website && Documentations](https://eggjs.org/en/index.html)
-- [Plugins](https://github.com/search?q=topic%3Aegg-plugin&type=Repositories)
-- [Frameworks](https://github.com/search?q=topic%3Aegg-framework&type=Repositories)
+![](./graphviz/egg-inline.gv.svg)
 
-## Getting Started
 
-Follow the commands listed below.
+## 各文件解析
 
-```bash
-$ mkdir showcase && cd showcase
-$ npm init egg --type=simple
-$ npm install
-$ npm run dev
-$ open http://localhost:7001
-```
+### index.js
 
-## Examples
+入口文件，用于将内部各模块对外暴露
 
-See [egg-examples](https://github.com/eggjs/examples).
+![](./graphviz/index.js.svg)
 
-## How to Contribute
 
-Please let us know how can we help. Do check out [issues](https://github.com/eggjs/egg/issues) for bug reports or suggestions first.
+### lib/start.js
 
-To become a contributor, please follow our [contributing guide](CONTRIBUTING.md).
+启动文件，初始化Agent和Application，建立关系，最后返回application。
 
-## License
+![](./graphviz/lib_start.js.svg)
 
-[MIT](LICENSE)
+
+### lib/core/messenger/local.js
+
+用于当前进程内部通信，基于EventEmitter封装了一个通信管理messennger
+
+![](./graphviz/lib_core_messenger_local.svg)
+
+### lib/core/messenger/pid.js
+
+用于给子进程进行通信，底层基于sendmessage模块，基于[subprocess.send](https://nodejs.org/dist/latest-v10.x/docs/api/child_process.html#child_process_subprocess_send_message_sendhandle_options_callback)来进行通信。
+
+![](./graphviz/lib_core_messenger_pid.svg)
+
+### lib/core/messenger/index.js
+
+单进程模型使用local.js，多进程模型使用pid。
+
+![](./graphviz/lib_core_messenger_index.svg)
+

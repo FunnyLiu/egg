@@ -1,0 +1,128 @@
+﻿
+                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="735" height="399" shape-rendering="optimizeSpeed">
+                
+                <g>
+                   <rect x="50" y="65" width="349.8" height="30" rx="3" ry="3" style="fill:#90caf9; stroke:#444; stroke-width:1"></rect>
+                   <title>const LocalMessenger = require('./local')</title>
+            <text x="65" y="85" font-family="monospace" font-size="13" fill="#222">
+                <tspan x="65" y="85">const LocalMessenger = require('./local')</tspan>
+            </text>
+                   
+                   
+                </g>
+                <g>
+                   <rect x="50" y="113.5" width="318.59999999999997" height="30" rx="3" ry="3" style="fill:#90caf9; stroke:#444; stroke-width:1"></rect>
+                   <title>const IPCMessenger = require('./ipc')</title>
+            <text x="65" y="133.5" font-family="monospace" font-size="13" fill="#222">
+                <tspan x="65" y="133.5">const IPCMessenger = require('./ipc')</tspan>
+            </text>
+                   
+                   
+                </g>
+            <g>
+                <rect x="50" y="177" width="245" height="30" style="fill:#a5d6a7; stroke:#444; stroke-width:1"></rect>
+                    
+                <line x1="60" y1="177" x2="60" y2="207" style="fill:#a5d6a7; stroke:#444; stroke-width:1"></line>
+                <line x1="285" y1="177" x2="285" y2="207" style="fill:#a5d6a7; stroke:#444; stroke-width:1"></line>
+             
+                <title>exports.create = (egg) =&gt;</title>
+            <text x="75" y="197" font-family="monospace" font-size="13" fill="#222">
+                <tspan x="75" y="197">exports.create = (egg) =&gt;</tspan>
+            </text>
+                
+            </g>
+            <g>
+                <rect x="87" y="225.5" width="76.8" height="30" rx="3" ry="3" style="fill:#90caf9; stroke:#444; stroke-width:1"></rect>
+                
+                <line x1="163.8" y1="235.5" x2="168.8" y2="235.5" style="fill:#a5d6a7; stroke:#444; stroke-width:1"></line>
+                
+                <line x1="163.8" y1="245.5" x2="168.8" y2="245.5" style="fill:#a5d6a7; stroke:#444; stroke-width:1"></line>
+
+                <path d="M168.8, 229.5 L184.8, 240.5 L168.8, 251.5 Z" fill="#a5d6a7" stroke="#444" stroke-width="1"></path>
+                             
+                <title>return</title>
+            <text x="102" y="245.5" font-family="monospace" font-size="13" fill="#222">
+                <tspan x="102" y="245.5">return</tspan>
+            </text>
+                
+            </g><g>
+            <rect x="154" y="289" width="301.79999999999995" height="30" rx="3" ry="3" style="fill:#ce93d8; stroke:#444; stroke-width:1"></rect>                
+            <polygon points="124,304 154,274 184,304 154,334" style="fill:#ce93d8; stroke:#444; stroke-width:1"></polygon>
+            <title>(egg.options.mode === 'single')</title>
+            <text x="199" y="309" font-family="monospace" font-size="13" fill="#222">
+                <tspan x="199" y="309">(egg.options.mode === 'single')</tspan>
+            </text>
+            
+            <text x="150.1" y="309" font-family="monospace" font-size="13" fill="#222">?</text> <text x="161.8" y="335.95" font-family="monospace" font-size="13" fill="#222">+</text> <text x="459.69999999999993" y="302.05" font-family="monospace" font-size="13" fill="#222">-</text>
+        </g>
+                <g>
+                   <rect x="174" y="344" width="209.4" height="30" rx="3" ry="3" style="fill:#90caf9; stroke:#444; stroke-width:1"></rect>
+                   <title>new LocalMessenger(egg)</title>
+            <text x="189" y="364" font-family="monospace" font-size="13" fill="#222">
+                <tspan x="189" y="364">new LocalMessenger(egg)</tspan>
+            </text>
+                   
+                   
+                </g>
+                <g>
+                   <rect x="515.8" y="344" width="193.79999999999998" height="30" rx="3" ry="3" style="fill:#90caf9; stroke:#444; stroke-width:1"></rect>
+                   <title>new IPCMessenger(egg)</title>
+            <text x="530.8" y="364" font-family="monospace" font-size="13" fill="#222">
+                <tspan x="530.8" y="364">new IPCMessenger(egg)</tspan>
+            </text>
+                   
+                   
+                </g>
+            <g>
+               <rect x="25" y="13.75" width="216.6" height="24" style="fill:#fff59d; stroke:#444; stroke-width:1"></rect>
+               <circle cx="25" cy="25" r="15" style="fill:#fff59d; stroke:#444; stroke-width:1"></circle>
+               <title>Program: source module</title>
+            <text x="55" y="30" font-family="monospace" font-size="13" fill="#222">
+                <tspan x="55" y="30">Program: source module</tspan>
+            </text>
+            </g>
+            <g>
+               <path d="M25, 40 L25 76 Q25 80
+                29 80
+                L42 80 " style="fill:none; stroke:#444; stroke-width:1"></path>
+               <path d="M42, 77 L50, 80 L42, 83 Z" fill="#333"></path>
+            </g>
+            <g>
+               <path d="M25, 40 L25 124.5 Q25 128.5
+                29 128.5
+                L42 128.5 " style="fill:none; stroke:#444; stroke-width:1"></path>
+               <path d="M42, 125.5 L50, 128.5 L42, 131.5 Z" fill="#333"></path>
+            </g>
+            <g>
+               <path d="M25, 40 L25 188 Q25 192
+                29 192
+                L42 192 " style="fill:none; stroke:#444; stroke-width:1"></path>
+               <path d="M42, 189 L50, 192 L42, 195 Z" fill="#333"></path>
+            </g>
+            <g>
+               <path d="M68.5, 207 L68.5 236.5 Q68.5 240.5
+                72.5 240.5
+                L79 240.5 " style="fill:none; stroke:#444; stroke-width:1"></path>
+               <path d="M79, 237.5 L87, 240.5 L79, 243.5 Z" fill="#333"></path>
+            </g>
+            <g>
+               <path d="M105.5, 255.5 L105.5 300 Q105.5 304
+                109.5 304
+                L116 304 " style="fill:none; stroke:#444; stroke-width:1"></path>
+               <path d="M116, 301 L124, 304 L116, 307 Z" fill="#333"></path>
+            </g>
+            <g>
+               <path d="M154, 334 L154 355 Q154 359
+                158 359
+                L166 359 " style="fill:none; stroke:#444; stroke-width:1"></path>
+               <path d="M166, 356 L174, 359 L166, 362 Z" fill="#333"></path>
+            </g>
+            <g>
+               <path d="M455.79999999999995, 304 L491.79999999999995 304  Q495.79999999999995 304
+                495.79999999999995 308
+                L495.79999999999995 351 Q495.79999999999995 359
+                499.79999999999995 359
+                L507.79999999999995 359 " style="fill:none; stroke:#444; stroke-width:1"></path>
+               <path d="M507.79999999999995, 356 L515.8, 359 L507.79999999999995, 362 Z" fill="#333"></path>
+            </g>
+            </svg>

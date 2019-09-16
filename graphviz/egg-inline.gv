@@ -1,0 +1,57 @@
+digraph G {
+
+    nodesep=0.5;
+    charset="UTF-8";
+    rankdir=LR;
+    fixedsize=true;
+    compound=true;
+    node [style="rounded,filled", width=0, height=0, shape=box, fillcolor="#E5E5E5", concentrate=true]
+
+  "index.js";
+  "lib/agent.js";
+  "lib/application.js";
+  "lib/core/base_context_class.js";
+  "lib/core/base_hook_class.js";
+  "lib/loader/index.js";
+  "lib/start.js";
+  "lib/egg.js";
+  "lib/core/base_context_logger.js";
+  "lib/core/context_httpclient.js";
+  "lib/core/dnscache_httpclient.js";
+  "lib/core/httpclient.js";
+  "lib/core/logger.js";
+  "lib/core/messenger/index.js";
+  "lib/core/messenger/ipc.js";
+  "lib/core/messenger/local.js";
+  "lib/core/singleton.js";
+  "lib/core/utils.js";
+  "lib/loader/agent_worker_loader.js";
+  "lib/loader/app_worker_loader.js";
+  "index.js" -> "lib/agent.js";
+  "index.js" -> "lib/application.js";
+  "index.js" -> "lib/core/base_context_class.js";
+  "index.js" -> "lib/core/base_hook_class.js";
+  "index.js" -> "lib/loader/index.js";
+  "index.js" -> "lib/start.js";
+  "lib/agent.js" -> "lib/egg.js";
+  "lib/agent.js" -> "lib/loader/index.js";
+  "lib/application.js" -> "lib/egg.js";
+  "lib/application.js" -> "lib/loader/index.js";
+  "lib/core/base_context_class.js" -> "lib/core/base_context_logger.js";
+  "lib/core/dnscache_httpclient.js" -> "lib/core/httpclient.js";
+  "lib/core/messenger/index.js" -> "lib/core/messenger/ipc.js";
+  "lib/core/messenger/index.js" -> "lib/core/messenger/local.js";
+  "lib/egg.js" -> "lib/core/base_context_class.js";
+  "lib/egg.js" -> "lib/core/base_hook_class.js";
+  "lib/egg.js" -> "lib/core/context_httpclient.js";
+  "lib/egg.js" -> "lib/core/dnscache_httpclient.js";
+  "lib/egg.js" -> "lib/core/httpclient.js";
+  "lib/egg.js" -> "lib/core/logger.js";
+  "lib/egg.js" -> "lib/core/messenger/index.js";
+  "lib/egg.js" -> "lib/core/singleton.js";
+  "lib/egg.js" -> "lib/core/utils.js";
+  "lib/loader/index.js" -> "lib/loader/agent_worker_loader.js";
+  "lib/loader/index.js" -> "lib/loader/app_worker_loader.js";
+  "lib/start.js" -> "lib/agent.js";
+  "lib/start.js" -> "lib/application.js";
+}

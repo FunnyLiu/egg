@@ -1,0 +1,222 @@
+﻿
+                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="519" height="751" shape-rendering="optimizeSpeed">
+                
+                <g>
+                   <rect x="50" y="65" width="443.4" height="30" rx="3" ry="3" style="fill:#90caf9; stroke:#444; stroke-width:1"></rect>
+                   <title>exports.startCluster = require('egg-cluster').startCluster</title>
+            <text x="65" y="85" font-family="monospace" font-size="13" fill="#222">
+                <tspan x="65" y="85">exports.startCluster = require('egg-cluster').star...</tspan>
+            </text>
+                   
+                   
+                </g>
+                <g>
+                   <rect x="87" y="113.5" width="201.6" height="30" rx="2" ry="2" style="fill:#C5E1A5; stroke:#444; stroke-width:1"></rect>
+                   <title>require('egg-cluster')</title>
+            <text x="102" y="133.5" font-family="monospace" font-size="13" fill="#222">
+                <tspan x="102" y="133.5">require('egg-cluster')</tspan>
+            </text>
+                   
+                   
+                </g>
+                <g>
+                   <rect x="50" y="162" width="326.4" height="30" rx="3" ry="3" style="fill:#90caf9; stroke:#444; stroke-width:1"></rect>
+                   <title>exports.start = require('./lib/start')</title>
+            <text x="65" y="182" font-family="monospace" font-size="13" fill="#222">
+                <tspan x="65" y="182">exports.start = require('./lib/start')</tspan>
+            </text>
+                   
+                   
+                </g>
+                <g>
+                   <rect x="50" y="210.5" width="420" height="30" rx="3" ry="3" style="fill:#90caf9; stroke:#444; stroke-width:1"></rect>
+                   <title>exports.Application = require('./lib/application')</title>
+            <text x="65" y="230.5" font-family="monospace" font-size="13" fill="#222">
+                <tspan x="65" y="230.5">exports.Application = require('./lib/application')</tspan>
+            </text>
+                   
+                   
+                </g>
+                <g>
+                   <rect x="50" y="259" width="326.4" height="30" rx="3" ry="3" style="fill:#90caf9; stroke:#444; stroke-width:1"></rect>
+                   <title>exports.Agent = require('./lib/agent')</title>
+            <text x="65" y="279" font-family="monospace" font-size="13" fill="#222">
+                <tspan x="65" y="279">exports.Agent = require('./lib/agent')</tspan>
+            </text>
+                   
+                   
+                </g>
+                <g>
+                   <rect x="50" y="307.5" width="443.4" height="30" rx="3" ry="3" style="fill:#90caf9; stroke:#444; stroke-width:1"></rect>
+                   <title>exports.AppWorkerLoader = require('./lib/loader').AppWorkerLoader</title>
+            <text x="65" y="327.5" font-family="monospace" font-size="13" fill="#222">
+                <tspan x="65" y="327.5">exports.AppWorkerLoader = require('./lib/loader')....</tspan>
+            </text>
+                   
+                   
+                </g>
+                <g>
+                   <rect x="87" y="356" width="209.4" height="30" rx="2" ry="2" style="fill:#C5E1A5; stroke:#444; stroke-width:1"></rect>
+                   <title>require('./lib/loader')</title>
+            <text x="102" y="376" font-family="monospace" font-size="13" fill="#222">
+                <tspan x="102" y="376">require('./lib/loader')</tspan>
+            </text>
+                   
+                   
+                </g>
+                <g>
+                   <rect x="50" y="404.5" width="443.4" height="30" rx="3" ry="3" style="fill:#90caf9; stroke:#444; stroke-width:1"></rect>
+                   <title>exports.AgentWorkerLoader = require('./lib/loader').AgentWorkerLoader</title>
+            <text x="65" y="424.5" font-family="monospace" font-size="13" fill="#222">
+                <tspan x="65" y="424.5">exports.AgentWorkerLoader = require('./lib/loader'...</tspan>
+            </text>
+                   
+                   
+                </g>
+                <g>
+                   <rect x="87" y="453" width="209.4" height="30" rx="2" ry="2" style="fill:#C5E1A5; stroke:#444; stroke-width:1"></rect>
+                   <title>require('./lib/loader')</title>
+            <text x="102" y="473" font-family="monospace" font-size="13" fill="#222">
+                <tspan x="102" y="473">require('./lib/loader')</tspan>
+            </text>
+                   
+                   
+                </g>
+                <g>
+                   <rect x="50" y="501.5" width="443.4" height="30" rx="3" ry="3" style="fill:#90caf9; stroke:#444; stroke-width:1"></rect>
+                   <title>exports.Controller = require('./lib/core/base_context_class')</title>
+            <text x="65" y="521.5" font-family="monospace" font-size="13" fill="#222">
+                <tspan x="65" y="521.5">exports.Controller = require('./lib/core/base_cont...</tspan>
+            </text>
+                   
+                   
+                </g>
+                <g>
+                   <rect x="50" y="550" width="443.4" height="30" rx="3" ry="3" style="fill:#90caf9; stroke:#444; stroke-width:1"></rect>
+                   <title>exports.Service = require('./lib/core/base_context_class')</title>
+            <text x="65" y="570" font-family="monospace" font-size="13" fill="#222">
+                <tspan x="65" y="570">exports.Service = require('./lib/core/base_context...</tspan>
+            </text>
+                   
+                   
+                </g>
+                <g>
+                   <rect x="50" y="598.5" width="443.4" height="30" rx="3" ry="3" style="fill:#90caf9; stroke:#444; stroke-width:1"></rect>
+                   <title>exports.Subscription = require('./lib/core/base_context_class')</title>
+            <text x="65" y="618.5" font-family="monospace" font-size="13" fill="#222">
+                <tspan x="65" y="618.5">exports.Subscription = require('./lib/core/base_co...</tspan>
+            </text>
+                   
+                   
+                </g>
+                <g>
+                   <rect x="50" y="647" width="443.4" height="30" rx="3" ry="3" style="fill:#90caf9; stroke:#444; stroke-width:1"></rect>
+                   <title>exports.BaseContextClass = require('./lib/core/base_context_class')</title>
+            <text x="65" y="667" font-family="monospace" font-size="13" fill="#222">
+                <tspan x="65" y="667">exports.BaseContextClass = require('./lib/core/bas...</tspan>
+            </text>
+                   
+                   
+                </g>
+                <g>
+                   <rect x="50" y="695.5" width="443.4" height="30" rx="3" ry="3" style="fill:#90caf9; stroke:#444; stroke-width:1"></rect>
+                   <title>exports.Boot = require('./lib/core/base_hook_class')</title>
+            <text x="65" y="715.5" font-family="monospace" font-size="13" fill="#222">
+                <tspan x="65" y="715.5">exports.Boot = require('./lib/core/base_hook_class...</tspan>
+            </text>
+                   
+                   
+                </g>
+            <g>
+               <rect x="25" y="13.75" width="216.6" height="24" style="fill:#fff59d; stroke:#444; stroke-width:1"></rect>
+               <circle cx="25" cy="25" r="15" style="fill:#fff59d; stroke:#444; stroke-width:1"></circle>
+               <title>Program: source module</title>
+            <text x="55" y="30" font-family="monospace" font-size="13" fill="#222">
+                <tspan x="55" y="30">Program: source module</tspan>
+            </text>
+            </g>
+            <g>
+               <path d="M25, 40 L25 76 Q25 80
+                29 80
+                L42 80 " style="fill:none; stroke:#444; stroke-width:1"></path>
+               <path d="M42, 77 L50, 80 L42, 83 Z" fill="#333"></path>
+            </g>
+            <g>
+               <path d="M68.5, 95 L68.5 124.5 Q68.5 128.5
+                72.5 128.5
+                L79 128.5 " style="fill:none; stroke:#444; stroke-width:1"></path>
+               <path d="M79, 125.5 L87, 128.5 L79, 131.5 Z" fill="#333"></path>
+            </g>
+            <g>
+               <path d="M25, 40 L25 173 Q25 177
+                29 177
+                L42 177 " style="fill:none; stroke:#444; stroke-width:1"></path>
+               <path d="M42, 174 L50, 177 L42, 180 Z" fill="#333"></path>
+            </g>
+            <g>
+               <path d="M25, 40 L25 221.5 Q25 225.5
+                29 225.5
+                L42 225.5 " style="fill:none; stroke:#444; stroke-width:1"></path>
+               <path d="M42, 222.5 L50, 225.5 L42, 228.5 Z" fill="#333"></path>
+            </g>
+            <g>
+               <path d="M25, 40 L25 270 Q25 274
+                29 274
+                L42 274 " style="fill:none; stroke:#444; stroke-width:1"></path>
+               <path d="M42, 271 L50, 274 L42, 277 Z" fill="#333"></path>
+            </g>
+            <g>
+               <path d="M25, 40 L25 318.5 Q25 322.5
+                29 322.5
+                L42 322.5 " style="fill:none; stroke:#444; stroke-width:1"></path>
+               <path d="M42, 319.5 L50, 322.5 L42, 325.5 Z" fill="#333"></path>
+            </g>
+            <g>
+               <path d="M68.5, 337.5 L68.5 367 Q68.5 371
+                72.5 371
+                L79 371 " style="fill:none; stroke:#444; stroke-width:1"></path>
+               <path d="M79, 368 L87, 371 L79, 374 Z" fill="#333"></path>
+            </g>
+            <g>
+               <path d="M25, 40 L25 415.5 Q25 419.5
+                29 419.5
+                L42 419.5 " style="fill:none; stroke:#444; stroke-width:1"></path>
+               <path d="M42, 416.5 L50, 419.5 L42, 422.5 Z" fill="#333"></path>
+            </g>
+            <g>
+               <path d="M68.5, 434.5 L68.5 464 Q68.5 468
+                72.5 468
+                L79 468 " style="fill:none; stroke:#444; stroke-width:1"></path>
+               <path d="M79, 465 L87, 468 L79, 471 Z" fill="#333"></path>
+            </g>
+            <g>
+               <path d="M25, 40 L25 512.5 Q25 516.5
+                29 516.5
+                L42 516.5 " style="fill:none; stroke:#444; stroke-width:1"></path>
+               <path d="M42, 513.5 L50, 516.5 L42, 519.5 Z" fill="#333"></path>
+            </g>
+            <g>
+               <path d="M25, 40 L25 561 Q25 565
+                29 565
+                L42 565 " style="fill:none; stroke:#444; stroke-width:1"></path>
+               <path d="M42, 562 L50, 565 L42, 568 Z" fill="#333"></path>
+            </g>
+            <g>
+               <path d="M25, 40 L25 609.5 Q25 613.5
+                29 613.5
+                L42 613.5 " style="fill:none; stroke:#444; stroke-width:1"></path>
+               <path d="M42, 610.5 L50, 613.5 L42, 616.5 Z" fill="#333"></path>
+            </g>
+            <g>
+               <path d="M25, 40 L25 658 Q25 662
+                29 662
+                L42 662 " style="fill:none; stroke:#444; stroke-width:1"></path>
+               <path d="M42, 659 L50, 662 L42, 665 Z" fill="#333"></path>
+            </g>
+            <g>
+               <path d="M25, 40 L25 706.5 Q25 710.5
+                29 710.5
+                L42 710.5 " style="fill:none; stroke:#444; stroke-width:1"></path>
+               <path d="M42, 707.5 L50, 710.5 L42, 713.5 Z" fill="#333"></path>
+            </g>
+            </svg>
