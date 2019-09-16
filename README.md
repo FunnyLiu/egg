@@ -31,8 +31,8 @@
 |  ├── core
 |  |  ├── base_context_class.js - 继承自egg-core的BaseContextClass，并加上base_context_logger的实例用作logger对象的get
 |  |  ├── base_context_logger.js - 封装了基础logger，底层调用ctx.logger
-|  |  ├── base_hook_class.js
-|  |  ├── context_httpclient.js
+|  |  ├── base_hook_class.js - 包装一层私有属性logger,cofig
+|  |  ├── context_httpclient.js - 封装request，调用ctx.app.curl来请求
 |  |  ├── dnscache_httpclient.js - 继承于httpclient.js，进行dns缓存请求，优化性能
 |  |  ├── httpclient.js - 继承于urllib的HttpClient2，封装了request
 |  |  ├── logger.js - 实例化egg-logger的EggLoggers，对外暴露实例
@@ -41,7 +41,7 @@
 |  |  |  ├── ipc.js - 用于给子进程进行通信，底层基于sendmessage模块，基于subprocess.send来进行通信。
 |  |  |  └── local.js - 用于当前进程内部通信，基于EventEmitter封装了一个通信管理messennger
 |  |  ├── singleton.js - 根据配置config，和传入的create方法，创建指定name的app，兼容同步和异步。
-|  |  └── utils.js
+|  |  └── utils.js - 封装util
 |  ├── egg.js
 |  ├── jsdoc
 |  |  ├── context.jsdoc
@@ -159,3 +159,15 @@ egg.js
 根据配置config，和传入的create方法，创建指定name的app，兼容同步和异步。
 
 ![](./graphviz/lib_core_singleton.svg)
+
+### lib/core/context_httpclient.js
+
+封装request，调用ctx.app.curl来请求
+
+![](./graphviz/lib_core_context_httpclient.svg)
+
+### lib/core/base_hook_class.js
+
+包装一层私有属性logger,cofig
+
+![](./graphviz/lib_core_base_hook_class.svg)

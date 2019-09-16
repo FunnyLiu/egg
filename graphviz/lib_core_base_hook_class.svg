@@ -1,0 +1,294 @@
+﻿
+                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="593" height="923" shape-rendering="optimizeSpeed">
+                
+                <g>
+                   <rect x="50" y="65" width="279.6" height="30" rx="3" ry="3" style="fill:#90caf9; stroke:#444; stroke-width:1"></rect>
+                   <title>const assert = require('assert')</title>
+            <text x="65" y="85" font-family="monospace" font-size="13" fill="#222">
+                <tspan x="65" y="85">const assert = require('assert')</tspan>
+            </text>
+                   
+                   
+                </g>
+                <g>
+                   <rect x="50" y="113.5" width="412.2" height="30" rx="3" ry="3" style="fill:#90caf9; stroke:#444; stroke-width:1"></rect>
+                   <title>const INSTANCE = Symbol('BaseHookClass#instance')</title>
+            <text x="65" y="133.5" font-family="monospace" font-size="13" fill="#222">
+                <tspan x="65" y="133.5">const INSTANCE = Symbol('BaseHookClass#instance')</tspan>
+            </text>
+                   
+                   
+                </g>
+            <g>
+                <rect x="50" y="177" width="206" height="30" style="fill:#80cbc4; stroke:#444; stroke-width:1"></rect>
+                    
+                <line x1="60" y1="177" x2="60" y2="207" style="fill:#80cbc4; stroke:#444; stroke-width:1"></line>
+                <line x1="246" y1="177" x2="246" y2="207" style="fill:#80cbc4; stroke:#444; stroke-width:1"></line>
+             
+                <title>class BaseHookClass </title>
+            <text x="75" y="197" font-family="monospace" font-size="13" fill="#222">
+                <tspan x="75" y="197">class BaseHookClass </tspan>
+            </text>
+                
+            </g>
+            <g>
+                <rect x="87" y="225.5" width="213.79999999999998" height="30" style="fill:#a5d6a7; stroke:#444; stroke-width:1"></rect>
+                    
+                <line x1="97" y1="225.5" x2="97" y2="255.5" style="fill:#a5d6a7; stroke:#444; stroke-width:1"></line>
+                <line x1="290.79999999999995" y1="225.5" x2="290.79999999999995" y2="255.5" style="fill:#a5d6a7; stroke:#444; stroke-width:1"></line>
+             
+                <title>constructor(instance)</title>
+            <text x="112" y="245.5" font-family="monospace" font-size="13" fill="#222">
+                <tspan x="112" y="245.5">constructor(instance)</tspan>
+            </text>
+                
+            </g>
+                <g>
+                   <rect x="124" y="274" width="225" height="30" rx="3" ry="3" style="fill:#90caf9; stroke:#444; stroke-width:1"></rect>
+                   <title>this[INSTANCE] = instance</title>
+            <text x="139" y="294" font-family="monospace" font-size="13" fill="#222">
+                <tspan x="139" y="294">this[INSTANCE] = instance</tspan>
+            </text>
+                   
+                   
+                </g>
+            <g>
+                <rect x="87" y="337.5" width="112.4" height="30" style="fill:#a5d6a7; stroke:#444; stroke-width:1"></rect>
+                    
+                <line x1="97" y1="337.5" x2="97" y2="367.5" style="fill:#a5d6a7; stroke:#444; stroke-width:1"></line>
+                <line x1="189.4" y1="337.5" x2="189.4" y2="367.5" style="fill:#a5d6a7; stroke:#444; stroke-width:1"></line>
+             
+                <title>logger()</title>
+            <text x="112" y="357.5" font-family="monospace" font-size="13" fill="#222">
+                <tspan x="112" y="357.5">logger()</tspan>
+            </text>
+                
+            </g>
+            <g>
+                <rect x="124" y="386" width="248.39999999999998" height="30" rx="3" ry="3" style="fill:#90caf9; stroke:#444; stroke-width:1"></rect>
+                
+                <line x1="372.4" y1="396" x2="377.4" y2="396" style="fill:#a5d6a7; stroke:#444; stroke-width:1"></line>
+                
+                <line x1="372.4" y1="406" x2="377.4" y2="406" style="fill:#a5d6a7; stroke:#444; stroke-width:1"></line>
+
+                <path d="M377.4, 390 L393.4, 401 L377.4, 412 Z" fill="#a5d6a7" stroke="#444" stroke-width="1"></path>
+                             
+                <title>return this[INSTANCE].logger</title>
+            <text x="139" y="406" font-family="monospace" font-size="13" fill="#222">
+                <tspan x="139" y="406">return this[INSTANCE].logger</tspan>
+            </text>
+                
+            </g>
+            <g>
+                <rect x="87" y="449.5" width="112.4" height="30" style="fill:#a5d6a7; stroke:#444; stroke-width:1"></rect>
+                    
+                <line x1="97" y1="449.5" x2="97" y2="479.5" style="fill:#a5d6a7; stroke:#444; stroke-width:1"></line>
+                <line x1="189.4" y1="449.5" x2="189.4" y2="479.5" style="fill:#a5d6a7; stroke:#444; stroke-width:1"></line>
+             
+                <title>config()</title>
+            <text x="112" y="469.5" font-family="monospace" font-size="13" fill="#222">
+                <tspan x="112" y="469.5">config()</tspan>
+            </text>
+                
+            </g>
+            <g>
+                <rect x="124" y="498" width="248.39999999999998" height="30" rx="3" ry="3" style="fill:#90caf9; stroke:#444; stroke-width:1"></rect>
+                
+                <line x1="372.4" y1="508" x2="377.4" y2="508" style="fill:#a5d6a7; stroke:#444; stroke-width:1"></line>
+                
+                <line x1="372.4" y1="518" x2="377.4" y2="518" style="fill:#a5d6a7; stroke:#444; stroke-width:1"></line>
+
+                <path d="M377.4, 502 L393.4, 513 L377.4, 524 Z" fill="#a5d6a7" stroke="#444" stroke-width="1"></path>
+                             
+                <title>return this[INSTANCE].config</title>
+            <text x="139" y="518" font-family="monospace" font-size="13" fill="#222">
+                <tspan x="139" y="518">return this[INSTANCE].config</tspan>
+            </text>
+                
+            </g>
+            <g>
+                <rect x="87" y="561.5" width="89" height="30" style="fill:#a5d6a7; stroke:#444; stroke-width:1"></rect>
+                    
+                <line x1="97" y1="561.5" x2="97" y2="591.5" style="fill:#a5d6a7; stroke:#444; stroke-width:1"></line>
+                <line x1="166" y1="561.5" x2="166" y2="591.5" style="fill:#a5d6a7; stroke:#444; stroke-width:1"></line>
+             
+                <title>app()</title>
+            <text x="112" y="581.5" font-family="monospace" font-size="13" fill="#222">
+                <tspan x="112" y="581.5">app()</tspan>
+            </text>
+                
+            </g>
+                <g>
+                   <rect x="124" y="610" width="443.4" height="30" rx="2" ry="2" style="fill:#C5E1A5; stroke:#444; stroke-width:1"></rect>
+                   <title>assert(this[INSTANCE].type === 'application', 'agent boot should not use app instance')</title>
+            <text x="139" y="630" font-family="monospace" font-size="13" fill="#222">
+                <tspan x="139" y="630">assert(this[INSTANCE].type === 'application', 'age...</tspan>
+            </text>
+                   
+                   
+                </g>
+            <g>
+                <rect x="124" y="658.5" width="193.79999999999998" height="30" rx="3" ry="3" style="fill:#90caf9; stroke:#444; stroke-width:1"></rect>
+                
+                <line x1="317.79999999999995" y1="668.5" x2="322.79999999999995" y2="668.5" style="fill:#a5d6a7; stroke:#444; stroke-width:1"></line>
+                
+                <line x1="317.79999999999995" y1="678.5" x2="322.79999999999995" y2="678.5" style="fill:#a5d6a7; stroke:#444; stroke-width:1"></line>
+
+                <path d="M322.79999999999995, 662.5 L338.79999999999995, 673.5 L322.79999999999995, 684.5 Z" fill="#a5d6a7" stroke="#444" stroke-width="1"></path>
+                             
+                <title>return this[INSTANCE]</title>
+            <text x="139" y="678.5" font-family="monospace" font-size="13" fill="#222">
+                <tspan x="139" y="678.5">return this[INSTANCE]</tspan>
+            </text>
+                
+            </g>
+            <g>
+                <rect x="87" y="722" width="104.6" height="30" style="fill:#a5d6a7; stroke:#444; stroke-width:1"></rect>
+                    
+                <line x1="97" y1="722" x2="97" y2="752" style="fill:#a5d6a7; stroke:#444; stroke-width:1"></line>
+                <line x1="181.6" y1="722" x2="181.6" y2="752" style="fill:#a5d6a7; stroke:#444; stroke-width:1"></line>
+             
+                <title>agent()</title>
+            <text x="112" y="742" font-family="monospace" font-size="13" fill="#222">
+                <tspan x="112" y="742">agent()</tspan>
+            </text>
+                
+            </g>
+                <g>
+                   <rect x="124" y="770.5" width="443.4" height="30" rx="2" ry="2" style="fill:#C5E1A5; stroke:#444; stroke-width:1"></rect>
+                   <title>assert(this[INSTANCE].type === 'agent', 'app boot should not use agent instance')</title>
+            <text x="139" y="790.5" font-family="monospace" font-size="13" fill="#222">
+                <tspan x="139" y="790.5">assert(this[INSTANCE].type === 'agent', 'app boot ...</tspan>
+            </text>
+                   
+                   
+                </g>
+            <g>
+                <rect x="124" y="819" width="193.79999999999998" height="30" rx="3" ry="3" style="fill:#90caf9; stroke:#444; stroke-width:1"></rect>
+                
+                <line x1="317.79999999999995" y1="829" x2="322.79999999999995" y2="829" style="fill:#a5d6a7; stroke:#444; stroke-width:1"></line>
+                
+                <line x1="317.79999999999995" y1="839" x2="322.79999999999995" y2="839" style="fill:#a5d6a7; stroke:#444; stroke-width:1"></line>
+
+                <path d="M322.79999999999995, 823 L338.79999999999995, 834 L322.79999999999995, 845 Z" fill="#a5d6a7" stroke="#444" stroke-width="1"></path>
+                             
+                <title>return this[INSTANCE]</title>
+            <text x="139" y="839" font-family="monospace" font-size="13" fill="#222">
+                <tspan x="139" y="839">return this[INSTANCE]</tspan>
+            </text>
+                
+            </g>
+                <g>
+                   <rect x="50" y="867.5" width="264" height="30" rx="3" ry="3" style="fill:#90caf9; stroke:#444; stroke-width:1"></rect>
+                   <title>module.exports = BaseHookClass</title>
+            <text x="65" y="887.5" font-family="monospace" font-size="13" fill="#222">
+                <tspan x="65" y="887.5">module.exports = BaseHookClass</tspan>
+            </text>
+                   
+                   
+                </g>
+            <g>
+               <rect x="25" y="13.75" width="216.6" height="24" style="fill:#fff59d; stroke:#444; stroke-width:1"></rect>
+               <circle cx="25" cy="25" r="15" style="fill:#fff59d; stroke:#444; stroke-width:1"></circle>
+               <title>Program: source module</title>
+            <text x="55" y="30" font-family="monospace" font-size="13" fill="#222">
+                <tspan x="55" y="30">Program: source module</tspan>
+            </text>
+            </g>
+            <g>
+               <path d="M25, 40 L25 76 Q25 80
+                29 80
+                L42 80 " style="fill:none; stroke:#444; stroke-width:1"></path>
+               <path d="M42, 77 L50, 80 L42, 83 Z" fill="#333"></path>
+            </g>
+            <g>
+               <path d="M25, 40 L25 124.5 Q25 128.5
+                29 128.5
+                L42 128.5 " style="fill:none; stroke:#444; stroke-width:1"></path>
+               <path d="M42, 125.5 L50, 128.5 L42, 131.5 Z" fill="#333"></path>
+            </g>
+            <g>
+               <path d="M25, 40 L25 188 Q25 192
+                29 192
+                L42 192 " style="fill:none; stroke:#444; stroke-width:1"></path>
+               <path d="M42, 189 L50, 192 L42, 195 Z" fill="#333"></path>
+            </g>
+            <g>
+               <path d="M68.5, 207 L68.5 236.5 Q68.5 240.5
+                72.5 240.5
+                L79 240.5 " style="fill:none; stroke:#444; stroke-width:1"></path>
+               <path d="M79, 237.5 L87, 240.5 L79, 243.5 Z" fill="#333"></path>
+            </g>
+            <g>
+               <path d="M105.5, 255.5 L105.5 285 Q105.5 289
+                109.5 289
+                L116 289 " style="fill:none; stroke:#444; stroke-width:1"></path>
+               <path d="M116, 286 L124, 289 L116, 292 Z" fill="#333"></path>
+            </g>
+            <g>
+               <path d="M68.5, 207 L68.5 348.5 Q68.5 352.5
+                72.5 352.5
+                L79 352.5 " style="fill:none; stroke:#444; stroke-width:1"></path>
+               <path d="M79, 349.5 L87, 352.5 L79, 355.5 Z" fill="#333"></path>
+            </g>
+            <g>
+               <path d="M105.5, 367.5 L105.5 397 Q105.5 401
+                109.5 401
+                L116 401 " style="fill:none; stroke:#444; stroke-width:1"></path>
+               <path d="M116, 398 L124, 401 L116, 404 Z" fill="#333"></path>
+            </g>
+            <g>
+               <path d="M68.5, 207 L68.5 460.5 Q68.5 464.5
+                72.5 464.5
+                L79 464.5 " style="fill:none; stroke:#444; stroke-width:1"></path>
+               <path d="M79, 461.5 L87, 464.5 L79, 467.5 Z" fill="#333"></path>
+            </g>
+            <g>
+               <path d="M105.5, 479.5 L105.5 509 Q105.5 513
+                109.5 513
+                L116 513 " style="fill:none; stroke:#444; stroke-width:1"></path>
+               <path d="M116, 510 L124, 513 L116, 516 Z" fill="#333"></path>
+            </g>
+            <g>
+               <path d="M68.5, 207 L68.5 572.5 Q68.5 576.5
+                72.5 576.5
+                L79 576.5 " style="fill:none; stroke:#444; stroke-width:1"></path>
+               <path d="M79, 573.5 L87, 576.5 L79, 579.5 Z" fill="#333"></path>
+            </g>
+            <g>
+               <path d="M105.5, 591.5 L105.5 621 Q105.5 625
+                109.5 625
+                L116 625 " style="fill:none; stroke:#444; stroke-width:1"></path>
+               <path d="M116, 622 L124, 625 L116, 628 Z" fill="#333"></path>
+            </g>
+            <g>
+               <path d="M105.5, 591.5 L105.5 669.5 Q105.5 673.5
+                109.5 673.5
+                L116 673.5 " style="fill:none; stroke:#444; stroke-width:1"></path>
+               <path d="M116, 670.5 L124, 673.5 L116, 676.5 Z" fill="#333"></path>
+            </g>
+            <g>
+               <path d="M68.5, 207 L68.5 733 Q68.5 737
+                72.5 737
+                L79 737 " style="fill:none; stroke:#444; stroke-width:1"></path>
+               <path d="M79, 734 L87, 737 L79, 740 Z" fill="#333"></path>
+            </g>
+            <g>
+               <path d="M105.5, 752 L105.5 781.5 Q105.5 785.5
+                109.5 785.5
+                L116 785.5 " style="fill:none; stroke:#444; stroke-width:1"></path>
+               <path d="M116, 782.5 L124, 785.5 L116, 788.5 Z" fill="#333"></path>
+            </g>
+            <g>
+               <path d="M105.5, 752 L105.5 830 Q105.5 834
+                109.5 834
+                L116 834 " style="fill:none; stroke:#444; stroke-width:1"></path>
+               <path d="M116, 831 L124, 834 L116, 837 Z" fill="#333"></path>
+            </g>
+            <g>
+               <path d="M25, 40 L25 878.5 Q25 882.5
+                29 882.5
+                L42 882.5 " style="fill:none; stroke:#444; stroke-width:1"></path>
+               <path d="M42, 879.5 L50, 882.5 L42, 885.5 Z" fill="#333"></path>
+            </g>
+            </svg>
