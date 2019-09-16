@@ -1,0 +1,363 @@
+﻿
+                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="598" height="1252" shape-rendering="optimizeSpeed">
+                
+                <g>
+                   <rect x="50" y="65" width="381" height="30" rx="3" ry="3" style="fill:#90caf9; stroke:#444; stroke-width:1"></rect>
+                   <title>const CALL = Symbol('BaseContextLogger#call')</title>
+            <text x="65" y="85" font-family="monospace" font-size="13" fill="#222">
+                <tspan x="65" y="85">const CALL = Symbol('BaseContextLogger#call')</tspan>
+            </text>
+                   
+                   
+                </g>
+            <g>
+                <rect x="50" y="128.5" width="237.2" height="30" style="fill:#80cbc4; stroke:#444; stroke-width:1"></rect>
+                    
+                <line x1="60" y1="128.5" x2="60" y2="158.5" style="fill:#80cbc4; stroke:#444; stroke-width:1"></line>
+                <line x1="277.2" y1="128.5" x2="277.2" y2="158.5" style="fill:#80cbc4; stroke:#444; stroke-width:1"></line>
+             
+                <title>class BaseContextLogger </title>
+            <text x="75" y="148.5" font-family="monospace" font-size="13" fill="#222">
+                <tspan x="75" y="148.5">class BaseContextLogger </tspan>
+            </text>
+                
+            </g>
+            <g>
+                <rect x="87" y="177" width="252.79999999999998" height="30" style="fill:#a5d6a7; stroke:#444; stroke-width:1"></rect>
+                    
+                <line x1="97" y1="177" x2="97" y2="207" style="fill:#a5d6a7; stroke:#444; stroke-width:1"></line>
+                <line x1="329.79999999999995" y1="177" x2="329.79999999999995" y2="207" style="fill:#a5d6a7; stroke:#444; stroke-width:1"></line>
+             
+                <title>constructor(ctx, pathName)</title>
+            <text x="112" y="197" font-family="monospace" font-size="13" fill="#222">
+                <tspan x="112" y="197">constructor(ctx, pathName)</tspan>
+            </text>
+                
+            </g>
+                <g>
+                   <rect x="124" y="225.5" width="139.2" height="30" rx="3" ry="3" style="fill:#90caf9; stroke:#444; stroke-width:1"></rect>
+                   <title>this.ctx = ctx</title>
+            <text x="139" y="245.5" font-family="monospace" font-size="13" fill="#222">
+                <tspan x="139" y="245.5">this.ctx = ctx</tspan>
+            </text>
+                   
+                   
+                </g>
+                <g>
+                   <rect x="124" y="274" width="217.2" height="30" rx="3" ry="3" style="fill:#90caf9; stroke:#444; stroke-width:1"></rect>
+                   <title>this.pathName = pathName</title>
+            <text x="139" y="294" font-family="monospace" font-size="13" fill="#222">
+                <tspan x="139" y="294">this.pathName = pathName</tspan>
+            </text>
+                   
+                   
+                </g>
+            <g>
+                <rect x="87" y="337.5" width="190.4" height="30" style="fill:#a5d6a7; stroke:#444; stroke-width:1"></rect>
+                    
+                <line x1="97" y1="337.5" x2="97" y2="367.5" style="fill:#a5d6a7; stroke:#444; stroke-width:1"></line>
+                <line x1="267.4" y1="337.5" x2="267.4" y2="367.5" style="fill:#a5d6a7; stroke:#444; stroke-width:1"></line>
+             
+                <title>CALL(method, args)</title>
+            <text x="112" y="357.5" font-family="monospace" font-size="13" fill="#222">
+                <tspan x="112" y="357.5">CALL(method, args)</tspan>
+            </text>
+                
+            </g><g>
+            <rect x="154" y="401" width="418.8" height="30" rx="3" ry="3" style="fill:#ce93d8; stroke:#444; stroke-width:1"></rect>                
+            <polygon points="124,416 154,386 184,416 154,446" style="fill:#ce93d8; stroke:#444; stroke-width:1"></polygon>
+            <title>(this.pathName &amp;&amp; typeof args[0] === 'string')</title>
+            <text x="199" y="421" font-family="monospace" font-size="13" fill="#222">
+                <tspan x="199" y="421">(this.pathName &amp;&amp; typeof args[0] === 'string')</tspan>
+            </text>
+            
+            <text x="146.2" y="421" font-family="monospace" font-size="13" fill="#222">if</text> <text x="161.8" y="447.95" font-family="monospace" font-size="13" fill="#222">+</text> 
+        </g>
+                <g>
+                   <rect x="174" y="456" width="349.8" height="30" rx="3" ry="3" style="fill:#90caf9; stroke:#444; stroke-width:1"></rect>
+                   <title>args[0] = `[${this.pathName}] ${args[0]}`</title>
+            <text x="189" y="476" font-family="monospace" font-size="13" fill="#222">
+                <tspan x="189" y="476">args[0] = `[${this.pathName}] ${args[0]}`</tspan>
+            </text>
+                   
+                   
+                </g>
+                <g>
+                   <rect x="124" y="506" width="279.6" height="30" rx="2" ry="2" style="fill:#C5E1A5; stroke:#444; stroke-width:1"></rect>
+                   <title>this.ctx.logger[method](...args)</title>
+            <text x="139" y="526" font-family="monospace" font-size="13" fill="#222">
+                <tspan x="139" y="526">this.ctx.logger[method](...args)</tspan>
+            </text>
+                   
+                   
+                </g>
+            <g>
+                <rect x="87" y="569.5" width="159.2" height="30" style="fill:#a5d6a7; stroke:#444; stroke-width:1"></rect>
+                    
+                <line x1="97" y1="569.5" x2="97" y2="599.5" style="fill:#a5d6a7; stroke:#444; stroke-width:1"></line>
+                <line x1="236.2" y1="569.5" x2="236.2" y2="599.5" style="fill:#a5d6a7; stroke:#444; stroke-width:1"></line>
+             
+                <title>debug(...args)</title>
+            <text x="112" y="589.5" font-family="monospace" font-size="13" fill="#222">
+                <tspan x="112" y="589.5">debug(...args)</tspan>
+            </text>
+                
+            </g>
+                <g>
+                   <rect x="124" y="618" width="61.2" height="30" rx="3" ry="3" style="fill:#90caf9; stroke:#444; stroke-width:1"></rect>
+                   <title>args</title>
+            <text x="139" y="638" font-family="monospace" font-size="13" fill="#222">
+                <tspan x="139" y="638">args</tspan>
+            </text>
+                   
+                   
+                </g>
+                <g>
+                   <rect x="124" y="666.5" width="225" height="30" rx="2" ry="2" style="fill:#C5E1A5; stroke:#444; stroke-width:1"></rect>
+                   <title>this[CALL]('debug', args)</title>
+            <text x="139" y="686.5" font-family="monospace" font-size="13" fill="#222">
+                <tspan x="139" y="686.5">this[CALL]('debug', args)</tspan>
+            </text>
+                   
+                   
+                </g>
+            <g>
+                <rect x="87" y="730" width="151.39999999999998" height="30" style="fill:#a5d6a7; stroke:#444; stroke-width:1"></rect>
+                    
+                <line x1="97" y1="730" x2="97" y2="760" style="fill:#a5d6a7; stroke:#444; stroke-width:1"></line>
+                <line x1="228.39999999999998" y1="730" x2="228.39999999999998" y2="760" style="fill:#a5d6a7; stroke:#444; stroke-width:1"></line>
+             
+                <title>info(...args)</title>
+            <text x="112" y="750" font-family="monospace" font-size="13" fill="#222">
+                <tspan x="112" y="750">info(...args)</tspan>
+            </text>
+                
+            </g>
+                <g>
+                   <rect x="124" y="778.5" width="61.2" height="30" rx="3" ry="3" style="fill:#90caf9; stroke:#444; stroke-width:1"></rect>
+                   <title>args</title>
+            <text x="139" y="798.5" font-family="monospace" font-size="13" fill="#222">
+                <tspan x="139" y="798.5">args</tspan>
+            </text>
+                   
+                   
+                </g>
+                <g>
+                   <rect x="124" y="827" width="217.2" height="30" rx="2" ry="2" style="fill:#C5E1A5; stroke:#444; stroke-width:1"></rect>
+                   <title>this[CALL]('info', args)</title>
+            <text x="139" y="847" font-family="monospace" font-size="13" fill="#222">
+                <tspan x="139" y="847">this[CALL]('info', args)</tspan>
+            </text>
+                   
+                   
+                </g>
+            <g>
+                <rect x="87" y="890.5" width="151.39999999999998" height="30" style="fill:#a5d6a7; stroke:#444; stroke-width:1"></rect>
+                    
+                <line x1="97" y1="890.5" x2="97" y2="920.5" style="fill:#a5d6a7; stroke:#444; stroke-width:1"></line>
+                <line x1="228.39999999999998" y1="890.5" x2="228.39999999999998" y2="920.5" style="fill:#a5d6a7; stroke:#444; stroke-width:1"></line>
+             
+                <title>warn(...args)</title>
+            <text x="112" y="910.5" font-family="monospace" font-size="13" fill="#222">
+                <tspan x="112" y="910.5">warn(...args)</tspan>
+            </text>
+                
+            </g>
+                <g>
+                   <rect x="124" y="939" width="61.2" height="30" rx="3" ry="3" style="fill:#90caf9; stroke:#444; stroke-width:1"></rect>
+                   <title>args</title>
+            <text x="139" y="959" font-family="monospace" font-size="13" fill="#222">
+                <tspan x="139" y="959">args</tspan>
+            </text>
+                   
+                   
+                </g>
+                <g>
+                   <rect x="124" y="987.5" width="217.2" height="30" rx="2" ry="2" style="fill:#C5E1A5; stroke:#444; stroke-width:1"></rect>
+                   <title>this[CALL]('warn', args)</title>
+            <text x="139" y="1007.5" font-family="monospace" font-size="13" fill="#222">
+                <tspan x="139" y="1007.5">this[CALL]('warn', args)</tspan>
+            </text>
+                   
+                   
+                </g>
+            <g>
+                <rect x="87" y="1051" width="159.2" height="30" style="fill:#a5d6a7; stroke:#444; stroke-width:1"></rect>
+                    
+                <line x1="97" y1="1051" x2="97" y2="1081" style="fill:#a5d6a7; stroke:#444; stroke-width:1"></line>
+                <line x1="236.2" y1="1051" x2="236.2" y2="1081" style="fill:#a5d6a7; stroke:#444; stroke-width:1"></line>
+             
+                <title>error(...args)</title>
+            <text x="112" y="1071" font-family="monospace" font-size="13" fill="#222">
+                <tspan x="112" y="1071">error(...args)</tspan>
+            </text>
+                
+            </g>
+                <g>
+                   <rect x="124" y="1099.5" width="61.2" height="30" rx="3" ry="3" style="fill:#90caf9; stroke:#444; stroke-width:1"></rect>
+                   <title>args</title>
+            <text x="139" y="1119.5" font-family="monospace" font-size="13" fill="#222">
+                <tspan x="139" y="1119.5">args</tspan>
+            </text>
+                   
+                   
+                </g>
+                <g>
+                   <rect x="124" y="1148" width="225" height="30" rx="2" ry="2" style="fill:#C5E1A5; stroke:#444; stroke-width:1"></rect>
+                   <title>this[CALL]('error', args)</title>
+            <text x="139" y="1168" font-family="monospace" font-size="13" fill="#222">
+                <tspan x="139" y="1168">this[CALL]('error', args)</tspan>
+            </text>
+                   
+                   
+                </g>
+                <g>
+                   <rect x="50" y="1196.5" width="295.2" height="30" rx="3" ry="3" style="fill:#90caf9; stroke:#444; stroke-width:1"></rect>
+                   <title>module.exports = BaseContextLogger</title>
+            <text x="65" y="1216.5" font-family="monospace" font-size="13" fill="#222">
+                <tspan x="65" y="1216.5">module.exports = BaseContextLogger</tspan>
+            </text>
+                   
+                   
+                </g>
+            <g>
+               <rect x="25" y="13.75" width="216.6" height="24" style="fill:#fff59d; stroke:#444; stroke-width:1"></rect>
+               <circle cx="25" cy="25" r="15" style="fill:#fff59d; stroke:#444; stroke-width:1"></circle>
+               <title>Program: source module</title>
+            <text x="55" y="30" font-family="monospace" font-size="13" fill="#222">
+                <tspan x="55" y="30">Program: source module</tspan>
+            </text>
+            </g>
+            <g>
+               <path d="M25, 40 L25 76 Q25 80
+                29 80
+                L42 80 " style="fill:none; stroke:#444; stroke-width:1"></path>
+               <path d="M42, 77 L50, 80 L42, 83 Z" fill="#333"></path>
+            </g>
+            <g>
+               <path d="M25, 40 L25 139.5 Q25 143.5
+                29 143.5
+                L42 143.5 " style="fill:none; stroke:#444; stroke-width:1"></path>
+               <path d="M42, 140.5 L50, 143.5 L42, 146.5 Z" fill="#333"></path>
+            </g>
+            <g>
+               <path d="M68.5, 158.5 L68.5 188 Q68.5 192
+                72.5 192
+                L79 192 " style="fill:none; stroke:#444; stroke-width:1"></path>
+               <path d="M79, 189 L87, 192 L79, 195 Z" fill="#333"></path>
+            </g>
+            <g>
+               <path d="M105.5, 207 L105.5 236.5 Q105.5 240.5
+                109.5 240.5
+                L116 240.5 " style="fill:none; stroke:#444; stroke-width:1"></path>
+               <path d="M116, 237.5 L124, 240.5 L116, 243.5 Z" fill="#333"></path>
+            </g>
+            <g>
+               <path d="M105.5, 207 L105.5 285 Q105.5 289
+                109.5 289
+                L116 289 " style="fill:none; stroke:#444; stroke-width:1"></path>
+               <path d="M116, 286 L124, 289 L116, 292 Z" fill="#333"></path>
+            </g>
+            <g>
+               <path d="M68.5, 158.5 L68.5 348.5 Q68.5 352.5
+                72.5 352.5
+                L79 352.5 " style="fill:none; stroke:#444; stroke-width:1"></path>
+               <path d="M79, 349.5 L87, 352.5 L79, 355.5 Z" fill="#333"></path>
+            </g>
+            <g>
+               <path d="M105.5, 367.5 L105.5 412 Q105.5 416
+                109.5 416
+                L116 416 " style="fill:none; stroke:#444; stroke-width:1"></path>
+               <path d="M116, 413 L124, 416 L116, 419 Z" fill="#333"></path>
+            </g>
+            <g>
+               <path d="M154, 446 L154 467 Q154 471
+                158 471
+                L166 471 " style="fill:none; stroke:#444; stroke-width:1"></path>
+               <path d="M166, 468 L174, 471 L166, 474 Z" fill="#333"></path>
+            </g>
+            <g>
+               <path d="M105.5, 367.5 L105.5 517 Q105.5 521
+                109.5 521
+                L116 521 " style="fill:none; stroke:#444; stroke-width:1"></path>
+               <path d="M116, 518 L124, 521 L116, 524 Z" fill="#333"></path>
+            </g>
+            <g>
+               <path d="M68.5, 158.5 L68.5 580.5 Q68.5 584.5
+                72.5 584.5
+                L79 584.5 " style="fill:none; stroke:#444; stroke-width:1"></path>
+               <path d="M79, 581.5 L87, 584.5 L79, 587.5 Z" fill="#333"></path>
+            </g>
+            <g>
+               <path d="M105.5, 599.5 L105.5 629 Q105.5 633
+                109.5 633
+                L116 633 " style="fill:none; stroke:#444; stroke-width:1"></path>
+               <path d="M116, 630 L124, 633 L116, 636 Z" fill="#333"></path>
+            </g>
+            <g>
+               <path d="M105.5, 599.5 L105.5 677.5 Q105.5 681.5
+                109.5 681.5
+                L116 681.5 " style="fill:none; stroke:#444; stroke-width:1"></path>
+               <path d="M116, 678.5 L124, 681.5 L116, 684.5 Z" fill="#333"></path>
+            </g>
+            <g>
+               <path d="M68.5, 158.5 L68.5 741 Q68.5 745
+                72.5 745
+                L79 745 " style="fill:none; stroke:#444; stroke-width:1"></path>
+               <path d="M79, 742 L87, 745 L79, 748 Z" fill="#333"></path>
+            </g>
+            <g>
+               <path d="M105.5, 760 L105.5 789.5 Q105.5 793.5
+                109.5 793.5
+                L116 793.5 " style="fill:none; stroke:#444; stroke-width:1"></path>
+               <path d="M116, 790.5 L124, 793.5 L116, 796.5 Z" fill="#333"></path>
+            </g>
+            <g>
+               <path d="M105.5, 760 L105.5 838 Q105.5 842
+                109.5 842
+                L116 842 " style="fill:none; stroke:#444; stroke-width:1"></path>
+               <path d="M116, 839 L124, 842 L116, 845 Z" fill="#333"></path>
+            </g>
+            <g>
+               <path d="M68.5, 158.5 L68.5 901.5 Q68.5 905.5
+                72.5 905.5
+                L79 905.5 " style="fill:none; stroke:#444; stroke-width:1"></path>
+               <path d="M79, 902.5 L87, 905.5 L79, 908.5 Z" fill="#333"></path>
+            </g>
+            <g>
+               <path d="M105.5, 920.5 L105.5 950 Q105.5 954
+                109.5 954
+                L116 954 " style="fill:none; stroke:#444; stroke-width:1"></path>
+               <path d="M116, 951 L124, 954 L116, 957 Z" fill="#333"></path>
+            </g>
+            <g>
+               <path d="M105.5, 920.5 L105.5 998.5 Q105.5 1002.5
+                109.5 1002.5
+                L116 1002.5 " style="fill:none; stroke:#444; stroke-width:1"></path>
+               <path d="M116, 999.5 L124, 1002.5 L116, 1005.5 Z" fill="#333"></path>
+            </g>
+            <g>
+               <path d="M68.5, 158.5 L68.5 1062 Q68.5 1066
+                72.5 1066
+                L79 1066 " style="fill:none; stroke:#444; stroke-width:1"></path>
+               <path d="M79, 1063 L87, 1066 L79, 1069 Z" fill="#333"></path>
+            </g>
+            <g>
+               <path d="M105.5, 1081 L105.5 1110.5 Q105.5 1114.5
+                109.5 1114.5
+                L116 1114.5 " style="fill:none; stroke:#444; stroke-width:1"></path>
+               <path d="M116, 1111.5 L124, 1114.5 L116, 1117.5 Z" fill="#333"></path>
+            </g>
+            <g>
+               <path d="M105.5, 1081 L105.5 1159 Q105.5 1163
+                109.5 1163
+                L116 1163 " style="fill:none; stroke:#444; stroke-width:1"></path>
+               <path d="M116, 1160 L124, 1163 L116, 1166 Z" fill="#333"></path>
+            </g>
+            <g>
+               <path d="M25, 40 L25 1207.5 Q25 1211.5
+                29 1211.5
+                L42 1211.5 " style="fill:none; stroke:#444; stroke-width:1"></path>
+               <path d="M42, 1208.5 L50, 1211.5 L42, 1214.5 Z" fill="#333"></path>
+            </g>
+            </svg>

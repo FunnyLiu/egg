@@ -1,0 +1,159 @@
+﻿
+                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="643" height="546" shape-rendering="optimizeSpeed">
+                
+                <g>
+                   <rect x="50" y="65" width="443.4" height="30" rx="3" ry="3" style="fill:#90caf9; stroke:#444; stroke-width:1"></rect>
+                   <title>const EggCoreBaseContextClass = require('egg-core').BaseContextClass</title>
+            <text x="65" y="85" font-family="monospace" font-size="13" fill="#222">
+                <tspan x="65" y="85">const EggCoreBaseContextClass = require('egg-core'...</tspan>
+            </text>
+                   
+                   
+                </g>
+                <g>
+                   <rect x="50" y="113.5" width="443.4" height="30" rx="3" ry="3" style="fill:#90caf9; stroke:#444; stroke-width:1"></rect>
+                   <title>const BaseContextLogger = require('./base_context_logger')</title>
+            <text x="65" y="133.5" font-family="monospace" font-size="13" fill="#222">
+                <tspan x="65" y="133.5">const BaseContextLogger = require('./base_context_...</tspan>
+            </text>
+                   
+                   
+                </g>
+                <g>
+                   <rect x="50" y="162" width="404.4" height="30" rx="3" ry="3" style="fill:#90caf9; stroke:#444; stroke-width:1"></rect>
+                   <title>const LOGGER = Symbol('BaseContextClass#logger')</title>
+            <text x="65" y="182" font-family="monospace" font-size="13" fill="#222">
+                <tspan x="65" y="182">const LOGGER = Symbol('BaseContextClass#logger')</tspan>
+            </text>
+                   
+                   
+                </g>
+            <g>
+                <rect x="50" y="225.5" width="463.4" height="30" style="fill:#80cbc4; stroke:#444; stroke-width:1"></rect>
+                    
+                <line x1="60" y1="225.5" x2="60" y2="255.5" style="fill:#80cbc4; stroke:#444; stroke-width:1"></line>
+                <line x1="503.4" y1="225.5" x2="503.4" y2="255.5" style="fill:#80cbc4; stroke:#444; stroke-width:1"></line>
+             
+                <title>class BaseContextClass  extends EggCoreBaseContextClass</title>
+            <text x="75" y="245.5" font-family="monospace" font-size="13" fill="#222">
+                <tspan x="75" y="245.5">class BaseContextClass  extends EggCoreBaseContext...</tspan>
+            </text>
+                
+            </g>
+            <g>
+                <rect x="87" y="274" width="112.4" height="30" style="fill:#a5d6a7; stroke:#444; stroke-width:1"></rect>
+                    
+                <line x1="97" y1="274" x2="97" y2="304" style="fill:#a5d6a7; stroke:#444; stroke-width:1"></line>
+                <line x1="189.4" y1="274" x2="189.4" y2="304" style="fill:#a5d6a7; stroke:#444; stroke-width:1"></line>
+             
+                <title>logger()</title>
+            <text x="112" y="294" font-family="monospace" font-size="13" fill="#222">
+                <tspan x="112" y="294">logger()</tspan>
+            </text>
+                
+            </g><g>
+            <rect x="154" y="337.5" width="177" height="30" rx="3" ry="3" style="fill:#ce93d8; stroke:#444; stroke-width:1"></rect>                
+            <polygon points="124,352.5 154,322.5 184,352.5 154,382.5" style="fill:#ce93d8; stroke:#444; stroke-width:1"></polygon>
+            <title>(!this[LOGGER])</title>
+            <text x="199" y="357.5" font-family="monospace" font-size="13" fill="#222">
+                <tspan x="199" y="357.5">(!this[LOGGER])</tspan>
+            </text>
+            
+            <text x="146.2" y="357.5" font-family="monospace" font-size="13" fill="#222">if</text> <text x="161.8" y="384.45" font-family="monospace" font-size="13" fill="#222">+</text> 
+        </g>
+                <g>
+                   <rect x="174" y="392.5" width="443.4" height="30" rx="3" ry="3" style="fill:#90caf9; stroke:#444; stroke-width:1"></rect>
+                   <title>this[LOGGER] = BaseContextLogger(this.ctx, this.pathName)</title>
+            <text x="189" y="412.5" font-family="monospace" font-size="13" fill="#222">
+                <tspan x="189" y="412.5">this[LOGGER] = BaseContextLogger(this.ctx, this.pa...</tspan>
+            </text>
+                   
+                   
+                </g>
+            <g>
+                <rect x="124" y="442.5" width="178.2" height="30" rx="3" ry="3" style="fill:#90caf9; stroke:#444; stroke-width:1"></rect>
+                
+                <line x1="302.2" y1="452.5" x2="307.2" y2="452.5" style="fill:#a5d6a7; stroke:#444; stroke-width:1"></line>
+                
+                <line x1="302.2" y1="462.5" x2="307.2" y2="462.5" style="fill:#a5d6a7; stroke:#444; stroke-width:1"></line>
+
+                <path d="M307.2, 446.5 L323.2, 457.5 L307.2, 468.5 Z" fill="#a5d6a7" stroke="#444" stroke-width="1"></path>
+                             
+                <title>return this[LOGGER]</title>
+            <text x="139" y="462.5" font-family="monospace" font-size="13" fill="#222">
+                <tspan x="139" y="462.5">return this[LOGGER]</tspan>
+            </text>
+                
+            </g>
+                <g>
+                   <rect x="50" y="491" width="287.4" height="30" rx="3" ry="3" style="fill:#90caf9; stroke:#444; stroke-width:1"></rect>
+                   <title>module.exports = BaseContextClass</title>
+            <text x="65" y="511" font-family="monospace" font-size="13" fill="#222">
+                <tspan x="65" y="511">module.exports = BaseContextClass</tspan>
+            </text>
+                   
+                   
+                </g>
+            <g>
+               <rect x="25" y="13.75" width="216.6" height="24" style="fill:#fff59d; stroke:#444; stroke-width:1"></rect>
+               <circle cx="25" cy="25" r="15" style="fill:#fff59d; stroke:#444; stroke-width:1"></circle>
+               <title>Program: source module</title>
+            <text x="55" y="30" font-family="monospace" font-size="13" fill="#222">
+                <tspan x="55" y="30">Program: source module</tspan>
+            </text>
+            </g>
+            <g>
+               <path d="M25, 40 L25 76 Q25 80
+                29 80
+                L42 80 " style="fill:none; stroke:#444; stroke-width:1"></path>
+               <path d="M42, 77 L50, 80 L42, 83 Z" fill="#333"></path>
+            </g>
+            <g>
+               <path d="M25, 40 L25 124.5 Q25 128.5
+                29 128.5
+                L42 128.5 " style="fill:none; stroke:#444; stroke-width:1"></path>
+               <path d="M42, 125.5 L50, 128.5 L42, 131.5 Z" fill="#333"></path>
+            </g>
+            <g>
+               <path d="M25, 40 L25 173 Q25 177
+                29 177
+                L42 177 " style="fill:none; stroke:#444; stroke-width:1"></path>
+               <path d="M42, 174 L50, 177 L42, 180 Z" fill="#333"></path>
+            </g>
+            <g>
+               <path d="M25, 40 L25 236.5 Q25 240.5
+                29 240.5
+                L42 240.5 " style="fill:none; stroke:#444; stroke-width:1"></path>
+               <path d="M42, 237.5 L50, 240.5 L42, 243.5 Z" fill="#333"></path>
+            </g>
+            <g>
+               <path d="M68.5, 255.5 L68.5 285 Q68.5 289
+                72.5 289
+                L79 289 " style="fill:none; stroke:#444; stroke-width:1"></path>
+               <path d="M79, 286 L87, 289 L79, 292 Z" fill="#333"></path>
+            </g>
+            <g>
+               <path d="M105.5, 304 L105.5 348.5 Q105.5 352.5
+                109.5 352.5
+                L116 352.5 " style="fill:none; stroke:#444; stroke-width:1"></path>
+               <path d="M116, 349.5 L124, 352.5 L116, 355.5 Z" fill="#333"></path>
+            </g>
+            <g>
+               <path d="M154, 382.5 L154 403.5 Q154 407.5
+                158 407.5
+                L166 407.5 " style="fill:none; stroke:#444; stroke-width:1"></path>
+               <path d="M166, 404.5 L174, 407.5 L166, 410.5 Z" fill="#333"></path>
+            </g>
+            <g>
+               <path d="M105.5, 304 L105.5 453.5 Q105.5 457.5
+                109.5 457.5
+                L116 457.5 " style="fill:none; stroke:#444; stroke-width:1"></path>
+               <path d="M116, 454.5 L124, 457.5 L116, 460.5 Z" fill="#333"></path>
+            </g>
+            <g>
+               <path d="M25, 40 L25 502 Q25 506
+                29 506
+                L42 506 " style="fill:none; stroke:#444; stroke-width:1"></path>
+               <path d="M42, 503 L50, 506 L42, 509 Z" fill="#333"></path>
+            </g>
+            </svg>

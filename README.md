@@ -29,18 +29,18 @@
 |  ├── agent.js
 |  ├── application.js
 |  ├── core
-|  |  ├── base_context_class.js
-|  |  ├── base_context_logger.js
+|  |  ├── base_context_class.js - 继承自egg-core的BaseContextClass，并加上base_context_logger的实例用作logger对象的get
+|  |  ├── base_context_logger.js - 封装了基础logger，底层调用ctx.logger
 |  |  ├── base_hook_class.js
 |  |  ├── context_httpclient.js
-|  |  ├── dnscache_httpclient.js
-|  |  ├── httpclient.js
-|  |  ├── logger.js
+|  |  ├── dnscache_httpclient.js - 继承于httpclient.js，进行dns缓存请求，优化性能
+|  |  ├── httpclient.js - 继承于urllib的HttpClient2，封装了request
+|  |  ├── logger.js - 实例化egg-logger的EggLoggers，对外暴露实例
 |  |  ├── messenger
 |  |  |  ├── index.js - 单进程模型使用local.js，多进程模型使用pid。
 |  |  |  ├── ipc.js - 用于给子进程进行通信，底层基于sendmessage模块，基于subprocess.send来进行通信。
 |  |  |  └── local.js - 用于当前进程内部通信，基于EventEmitter封装了一个通信管理messennger
-|  |  ├── singleton.js
+|  |  ├── singleton.js - 根据配置config，和传入的create方法，创建指定name的app，兼容同步和异步。
 |  |  └── utils.js
 |  ├── egg.js
 |  ├── jsdoc
@@ -48,9 +48,9 @@
 |  |  ├── request.jsdoc
 |  |  └── response.jsdoc
 |  ├── loader
-|  |  ├── agent_worker_loader.js
-|  |  ├── app_worker_loader.js
-|  |  └── index.js
+|  |  ├── agent_worker_loader.js - 继承自egg-core的EggLoader，逐个调用agent进程的加载函数
+|  |  ├── app_worker_loader.js - 继承自egg-core的EggLoader，逐个调用加载函数
+|  |  └── index.js - 将egg-core的EggLoader和app_worker_loader，agent_worker_loader的loader对外暴露
 |  └── start.js - 启动文件，初始化Agent和Application，建立关系
 ├── scripts
 |  ├── commits.sh
@@ -104,3 +104,58 @@ egg.js
 
 ![](./graphviz/lib_core_messenger_index.svg)
 
+### lib/core/httpclient.js
+
+继承于urllib的HttpClient2，封装了request。
+
+![](./graphviz/lib_core_httpclient.svg)
+
+### lib/core/dnscache_httpclient.js
+
+继承于httpclient.js，进行dns缓存请求，优化性能
+
+![](./graphviz/lib_core_dnscache_httpclient.svg)
+
+### lib/core/base_context_logger.js
+
+封装了基础logger，底层调用ctx.logger
+
+![](./graphviz/lib_core_base_context_logger.svg)
+
+
+### lib/core/base_context_class.js
+
+继承自egg-core的BaseContextClass，并加上base_context_logger的实例用作logger对象的get
+
+![](./graphviz/lib_core_base_context_class.svg)
+
+### lib/loader/app_worker_loader.js
+
+继承自egg-core的EggLoader，逐个调用加载函数
+
+![](./graphviz/lib_loader_app_worker_loader.svg)
+
+
+### lib/loader/agent_worker_loader.js
+
+继承自egg-core的EggLoader，逐个调用agent进程的加载函数
+
+![](./graphviz/lib_loader_agent_worker_loader.svg)
+
+### lib/loader/index.js
+
+将egg-core的EggLoader和app_worker_loader，agent_worker_loader的loader对外暴露
+
+![](./graphviz/lib_loader_index.svg)
+
+### lib/core/logger.js
+
+实例化egg-logger的EggLoggers，对外暴露实例
+
+![](./graphviz/lib_core_logger.svg)
+
+### lib/core/singleton.js
+
+根据配置config，和传入的create方法，创建指定name的app，兼容同步和异步。
+
+![](./graphviz/lib_core_singleton.svg)
