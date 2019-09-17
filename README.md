@@ -70,6 +70,10 @@ egg.js
 ![](./graphviz/egg-inline.gv.svg)
 
 
+核心依赖项源码分析
+
+- [egg-core源码分析](https://github.com/FunnyLiu/egg-core/tree/readsource) - 核心的loader和controller，service，app，等均在此封装。
+
 ## 各文件解析
 
 ### index.js
