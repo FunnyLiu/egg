@@ -4,7 +4,7 @@ const getType = require('cache-content-type');
 const isJSON = require('koa-is-json');
 
 const REAL_STATUS = Symbol('Context#realStatus');
-
+// 注册一些属性到ctx.response上
 module.exports = {
 
   /**

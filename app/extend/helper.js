@@ -2,7 +2,7 @@
 
 const url = require('url');
 
-
+// 注册一些内置helper在ctx上
 module.exports = {
 
   /**

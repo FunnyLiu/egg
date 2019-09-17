@@ -1,0 +1,737 @@
+﻿
+                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="764" height="2383" shape-rendering="optimizeSpeed">
+                
+                <g>
+                   <rect x="50" y="65" width="381" height="30" rx="3" ry="3" style="fill:#90caf9; stroke:#444; stroke-width:1"></rect>
+                   <title>const getType = require('cache-content-type')</title>
+            <text x="65" y="85" font-family="monospace" font-size="13" fill="#222">
+                <tspan x="65" y="85">const getType = require('cache-content-type')</tspan>
+            </text>
+                   
+                   
+                </g>
+                <g>
+                   <rect x="50" y="113.5" width="318.59999999999997" height="30" rx="3" ry="3" style="fill:#90caf9; stroke:#444; stroke-width:1"></rect>
+                   <title>const isJSON = require('koa-is-json')</title>
+            <text x="65" y="133.5" font-family="monospace" font-size="13" fill="#222">
+                <tspan x="65" y="133.5">const isJSON = require('koa-is-json')</tspan>
+            </text>
+                   
+                   
+                </g>
+                <g>
+                   <rect x="50" y="162" width="404.4" height="30" rx="3" ry="3" style="fill:#90caf9; stroke:#444; stroke-width:1"></rect>
+                   <title>const REAL_STATUS = Symbol('Context#realStatus')</title>
+            <text x="65" y="182" font-family="monospace" font-size="13" fill="#222">
+                <tspan x="65" y="182">const REAL_STATUS = Symbol('Context#realStatus')</tspan>
+            </text>
+                   
+                   
+                </g>
+                <g>
+                   <rect x="50" y="210.5" width="186" height="30" rx="3" ry="3" style="fill:#90caf9; stroke:#444; stroke-width:1"></rect>
+                   <title>module.exports = {*}</title>
+            <text x="65" y="230.5" font-family="monospace" font-size="13" fill="#222">
+                <tspan x="65" y="230.5">module.exports = {*}</tspan>
+            </text>
+                   
+                   
+                </g>
+            <g>
+                <rect x="87" y="274" width="135.8" height="30" style="fill:#a5d6a7; stroke:#444; stroke-width:1"></rect>
+                    
+                <line x1="97" y1="274" x2="97" y2="304" style="fill:#a5d6a7; stroke:#444; stroke-width:1"></line>
+                <line x1="212.8" y1="274" x2="212.8" y2="304" style="fill:#a5d6a7; stroke:#444; stroke-width:1"></line>
+             
+                <title>length(len)</title>
+            <text x="112" y="294" font-family="monospace" font-size="13" fill="#222">
+                <tspan x="112" y="294">length(len)</tspan>
+            </text>
+                
+            </g>
+                <g>
+                   <rect x="124" y="322.5" width="76.8" height="30" rx="3" ry="3" style="fill:#90caf9; stroke:#444; stroke-width:1"></rect>
+                   <title>length</title>
+            <text x="139" y="342.5" font-family="monospace" font-size="13" fill="#222">
+                <tspan x="139" y="342.5">length</tspan>
+            </text>
+                   
+                   
+                </g>
+                <g>
+                   <rect x="124" y="371" width="271.79999999999995" height="30" rx="2" ry="2" style="fill:#C5E1A5; stroke:#444; stroke-width:1"></rect>
+                   <title>this.set('content-length', len)</title>
+            <text x="139" y="391" font-family="monospace" font-size="13" fill="#222">
+                <tspan x="139" y="391">this.set('content-length', len)</tspan>
+            </text>
+                   
+                   
+                </g>
+            <g>
+                <rect x="87" y="434.5" width="112.4" height="30" style="fill:#a5d6a7; stroke:#444; stroke-width:1"></rect>
+                    
+                <line x1="97" y1="434.5" x2="97" y2="464.5" style="fill:#a5d6a7; stroke:#444; stroke-width:1"></line>
+                <line x1="189.4" y1="434.5" x2="189.4" y2="464.5" style="fill:#a5d6a7; stroke:#444; stroke-width:1"></line>
+             
+                <title>length()</title>
+            <text x="112" y="454.5" font-family="monospace" font-size="13" fill="#222">
+                <tspan x="112" y="454.5">length()</tspan>
+            </text>
+                
+            </g>
+                <g>
+                   <rect x="124" y="483" width="76.8" height="30" rx="3" ry="3" style="fill:#90caf9; stroke:#444; stroke-width:1"></rect>
+                   <title>length</title>
+            <text x="139" y="503" font-family="monospace" font-size="13" fill="#222">
+                <tspan x="139" y="503">length</tspan>
+            </text>
+                   
+                   
+                </g>
+                <g>
+                   <rect x="124" y="531.5" width="349.8" height="30" rx="3" ry="3" style="fill:#90caf9; stroke:#444; stroke-width:1"></rect>
+                   <title>const len = this.header['content-length']</title>
+            <text x="139" y="551.5" font-family="monospace" font-size="13" fill="#222">
+                <tspan x="139" y="551.5">const len = this.header['content-length']</tspan>
+            </text>
+                   
+                   
+                </g>
+                <g>
+                   <rect x="124" y="580" width="201.6" height="30" rx="3" ry="3" style="fill:#90caf9; stroke:#444; stroke-width:1"></rect>
+                   <title>const body = this.body</title>
+            <text x="139" y="600" font-family="monospace" font-size="13" fill="#222">
+                <tspan x="139" y="600">const body = this.body</tspan>
+            </text>
+                   
+                   
+                </g><g>
+            <rect x="154" y="643.5" width="161.39999999999998" height="30" rx="3" ry="3" style="fill:#ce93d8; stroke:#444; stroke-width:1"></rect>                
+            <polygon points="124,658.5 154,628.5 184,658.5 154,688.5" style="fill:#ce93d8; stroke:#444; stroke-width:1"></polygon>
+            <title>(len == null)</title>
+            <text x="199" y="663.5" font-family="monospace" font-size="13" fill="#222">
+                <tspan x="199" y="663.5">(len == null)</tspan>
+            </text>
+            
+            <text x="146.2" y="663.5" font-family="monospace" font-size="13" fill="#222">if</text> <text x="161.8" y="690.45" font-family="monospace" font-size="13" fill="#222">+</text> 
+        </g><g>
+            <rect x="204" y="713.5" width="114.6" height="30" rx="3" ry="3" style="fill:#ce93d8; stroke:#444; stroke-width:1"></rect>                
+            <polygon points="174,728.5 204,698.5 234,728.5 204,758.5" style="fill:#ce93d8; stroke:#444; stroke-width:1"></polygon>
+            <title>(!body)</title>
+            <text x="249" y="733.5" font-family="monospace" font-size="13" fill="#222">
+                <tspan x="249" y="733.5">(!body)</tspan>
+            </text>
+            
+            <text x="196.2" y="733.5" font-family="monospace" font-size="13" fill="#222">if</text> <text x="211.8" y="760.45" font-family="monospace" font-size="13" fill="#222">+</text> 
+        </g>
+            <g>
+                <rect x="224" y="768.5" width="76.8" height="30" rx="3" ry="3" style="fill:#90caf9; stroke:#444; stroke-width:1"></rect>
+                
+                <line x1="300.8" y1="778.5" x2="305.8" y2="778.5" style="fill:#a5d6a7; stroke:#444; stroke-width:1"></line>
+                
+                <line x1="300.8" y1="788.5" x2="305.8" y2="788.5" style="fill:#a5d6a7; stroke:#444; stroke-width:1"></line>
+
+                <path d="M305.8, 772.5 L321.8, 783.5 L305.8, 794.5 Z" fill="#a5d6a7" stroke="#444" stroke-width="1"></path>
+                             
+                <title>return</title>
+            <text x="239" y="788.5" font-family="monospace" font-size="13" fill="#222">
+                <tspan x="239" y="788.5">return</tspan>
+            </text>
+                
+            </g><g>
+            <rect x="204" y="833.5" width="262.79999999999995" height="30" rx="3" ry="3" style="fill:#ce93d8; stroke:#444; stroke-width:1"></rect>                
+            <polygon points="174,848.5 204,818.5 234,848.5 204,878.5" style="fill:#ce93d8; stroke:#444; stroke-width:1"></polygon>
+            <title>(typeof body === 'string')</title>
+            <text x="249" y="853.5" font-family="monospace" font-size="13" fill="#222">
+                <tspan x="249" y="853.5">(typeof body === 'string')</tspan>
+            </text>
+            
+            <text x="196.2" y="853.5" font-family="monospace" font-size="13" fill="#222">if</text> <text x="211.8" y="880.45" font-family="monospace" font-size="13" fill="#222">+</text> 
+        </g>
+            <g>
+                <rect x="224" y="888.5" width="264" height="30" rx="3" ry="3" style="fill:#90caf9; stroke:#444; stroke-width:1"></rect>
+                
+                <line x1="488" y1="898.5" x2="493" y2="898.5" style="fill:#a5d6a7; stroke:#444; stroke-width:1"></line>
+                
+                <line x1="488" y1="908.5" x2="493" y2="908.5" style="fill:#a5d6a7; stroke:#444; stroke-width:1"></line>
+
+                <path d="M493, 892.5 L509, 903.5 L493, 914.5 Z" fill="#a5d6a7" stroke="#444" stroke-width="1"></path>
+                             
+                <title>return Buffer.byteLength(body)</title>
+            <text x="239" y="908.5" font-family="monospace" font-size="13" fill="#222">
+                <tspan x="239" y="908.5">return Buffer.byteLength(body)</tspan>
+            </text>
+                
+            </g><g>
+            <rect x="204" y="953.5" width="239.39999999999998" height="30" rx="3" ry="3" style="fill:#ce93d8; stroke:#444; stroke-width:1"></rect>                
+            <polygon points="174,968.5 204,938.5 234,968.5 204,998.5" style="fill:#ce93d8; stroke:#444; stroke-width:1"></polygon>
+            <title>(Buffer.isBuffer(body))</title>
+            <text x="249" y="973.5" font-family="monospace" font-size="13" fill="#222">
+                <tspan x="249" y="973.5">(Buffer.isBuffer(body))</tspan>
+            </text>
+            
+            <text x="196.2" y="973.5" font-family="monospace" font-size="13" fill="#222">if</text> <text x="211.8" y="1000.45" font-family="monospace" font-size="13" fill="#222">+</text> 
+        </g>
+            <g>
+                <rect x="224" y="1008.5" width="170.4" height="30" rx="3" ry="3" style="fill:#90caf9; stroke:#444; stroke-width:1"></rect>
+                
+                <line x1="394.4" y1="1018.5" x2="399.4" y2="1018.5" style="fill:#a5d6a7; stroke:#444; stroke-width:1"></line>
+                
+                <line x1="394.4" y1="1028.5" x2="399.4" y2="1028.5" style="fill:#a5d6a7; stroke:#444; stroke-width:1"></line>
+
+                <path d="M399.4, 1012.5 L415.4, 1023.5 L399.4, 1034.5 Z" fill="#a5d6a7" stroke="#444" stroke-width="1"></path>
+                             
+                <title>return body.length</title>
+            <text x="239" y="1028.5" font-family="monospace" font-size="13" fill="#222">
+                <tspan x="239" y="1028.5">return body.length</tspan>
+            </text>
+                
+            </g><g>
+            <rect x="204" y="1073.5" width="169.2" height="30" rx="3" ry="3" style="fill:#ce93d8; stroke:#444; stroke-width:1"></rect>                
+            <polygon points="174,1088.5 204,1058.5 234,1088.5 204,1118.5" style="fill:#ce93d8; stroke:#444; stroke-width:1"></polygon>
+            <title>(isJSON(body))</title>
+            <text x="249" y="1093.5" font-family="monospace" font-size="13" fill="#222">
+                <tspan x="249" y="1093.5">(isJSON(body))</tspan>
+            </text>
+            
+            <text x="196.2" y="1093.5" font-family="monospace" font-size="13" fill="#222">if</text> <text x="211.8" y="1120.45" font-family="monospace" font-size="13" fill="#222">+</text> 
+        </g>
+            <g>
+                <rect x="224" y="1128.5" width="388.8" height="30" rx="3" ry="3" style="fill:#90caf9; stroke:#444; stroke-width:1"></rect>
+                
+                <line x1="612.8" y1="1138.5" x2="617.8" y2="1138.5" style="fill:#a5d6a7; stroke:#444; stroke-width:1"></line>
+                
+                <line x1="612.8" y1="1148.5" x2="617.8" y2="1148.5" style="fill:#a5d6a7; stroke:#444; stroke-width:1"></line>
+
+                <path d="M617.8, 1132.5 L633.8, 1143.5 L617.8, 1154.5 Z" fill="#a5d6a7" stroke="#444" stroke-width="1"></path>
+                             
+                <title>return Buffer.byteLength(JSON.stringify(body))</title>
+            <text x="239" y="1148.5" font-family="monospace" font-size="13" fill="#222">
+                <tspan x="239" y="1148.5">return Buffer.byteLength(JSON.stringify(body))</tspan>
+            </text>
+                
+            </g>
+            <g>
+                <rect x="174" y="1178.5" width="76.8" height="30" rx="3" ry="3" style="fill:#90caf9; stroke:#444; stroke-width:1"></rect>
+                
+                <line x1="250.8" y1="1188.5" x2="255.8" y2="1188.5" style="fill:#a5d6a7; stroke:#444; stroke-width:1"></line>
+                
+                <line x1="250.8" y1="1198.5" x2="255.8" y2="1198.5" style="fill:#a5d6a7; stroke:#444; stroke-width:1"></line>
+
+                <path d="M255.8, 1182.5 L271.8, 1193.5 L255.8, 1204.5 Z" fill="#a5d6a7" stroke="#444" stroke-width="1"></path>
+                             
+                <title>return</title>
+            <text x="189" y="1198.5" font-family="monospace" font-size="13" fill="#222">
+                <tspan x="189" y="1198.5">return</tspan>
+            </text>
+                
+            </g>
+            <g>
+                <rect x="124" y="1228.5" width="217.2" height="30" rx="3" ry="3" style="fill:#90caf9; stroke:#444; stroke-width:1"></rect>
+                
+                <line x1="341.2" y1="1238.5" x2="346.2" y2="1238.5" style="fill:#a5d6a7; stroke:#444; stroke-width:1"></line>
+                
+                <line x1="341.2" y1="1248.5" x2="346.2" y2="1248.5" style="fill:#a5d6a7; stroke:#444; stroke-width:1"></line>
+
+                <path d="M346.2, 1232.5 L362.2, 1243.5 L346.2, 1254.5 Z" fill="#a5d6a7" stroke="#444" stroke-width="1"></path>
+                             
+                <title>return parseInt(len, 10)</title>
+            <text x="139" y="1248.5" font-family="monospace" font-size="13" fill="#222">
+                <tspan x="139" y="1248.5">return parseInt(len, 10)</tspan>
+            </text>
+                
+            </g>
+            <g>
+                <rect x="87" y="1292" width="128" height="30" style="fill:#a5d6a7; stroke:#444; stroke-width:1"></rect>
+                    
+                <line x1="97" y1="1292" x2="97" y2="1322" style="fill:#a5d6a7; stroke:#444; stroke-width:1"></line>
+                <line x1="205" y1="1292" x2="205" y2="1322" style="fill:#a5d6a7; stroke:#444; stroke-width:1"></line>
+             
+                <title>type(type)</title>
+            <text x="112" y="1312" font-family="monospace" font-size="13" fill="#222">
+                <tspan x="112" y="1312">type(type)</tspan>
+            </text>
+                
+            </g>
+                <g>
+                   <rect x="124" y="1340.5" width="61.2" height="30" rx="3" ry="3" style="fill:#90caf9; stroke:#444; stroke-width:1"></rect>
+                   <title>type</title>
+            <text x="139" y="1360.5" font-family="monospace" font-size="13" fill="#222">
+                <tspan x="139" y="1360.5">type</tspan>
+            </text>
+                   
+                   
+                </g>
+                <g>
+                   <rect x="124" y="1389" width="186" height="30" rx="3" ry="3" style="fill:#90caf9; stroke:#444; stroke-width:1"></rect>
+                   <title>type = getType(type)</title>
+            <text x="139" y="1409" font-family="monospace" font-size="13" fill="#222">
+                <tspan x="139" y="1409">type = getType(type)</tspan>
+            </text>
+                   
+                   
+                </g><g>
+            <rect x="154" y="1452.5" width="106.80000000000001" height="30" rx="3" ry="3" style="fill:#ce93d8; stroke:#444; stroke-width:1"></rect>                
+            <polygon points="124,1467.5 154,1437.5 184,1467.5 154,1497.5" style="fill:#ce93d8; stroke:#444; stroke-width:1"></polygon>
+            <title>(type)</title>
+            <text x="199" y="1472.5" font-family="monospace" font-size="13" fill="#222">
+                <tspan x="199" y="1472.5">(type)</tspan>
+            </text>
+            
+            <text x="146.2" y="1472.5" font-family="monospace" font-size="13" fill="#222">if</text> <text x="161.8" y="1499.45" font-family="monospace" font-size="13" fill="#222">+</text> <text x="264.7" y="1465.55" font-family="monospace" font-size="13" fill="#222">-</text>
+        </g>
+                <g>
+                   <rect x="174" y="1507.5" width="264" height="30" rx="2" ry="2" style="fill:#C5E1A5; stroke:#444; stroke-width:1"></rect>
+                   <title>this.set('content-type', type)</title>
+            <text x="189" y="1527.5" font-family="monospace" font-size="13" fill="#222">
+                <tspan x="189" y="1527.5">this.set('content-type', type)</tspan>
+            </text>
+                   
+                   
+                </g>
+                <g>
+                   <rect x="498" y="1507.5" width="240.6" height="30" rx="2" ry="2" style="fill:#C5E1A5; stroke:#444; stroke-width:1"></rect>
+                   <title>this.remove('content-type')</title>
+            <text x="513" y="1527.5" font-family="monospace" font-size="13" fill="#222">
+                <tspan x="513" y="1527.5">this.remove('content-type')</tspan>
+            </text>
+                   
+                   
+                </g>
+            <g>
+                <rect x="87" y="1572.5" width="96.8" height="30" style="fill:#a5d6a7; stroke:#444; stroke-width:1"></rect>
+                    
+                <line x1="97" y1="1572.5" x2="97" y2="1602.5" style="fill:#a5d6a7; stroke:#444; stroke-width:1"></line>
+                <line x1="173.8" y1="1572.5" x2="173.8" y2="1602.5" style="fill:#a5d6a7; stroke:#444; stroke-width:1"></line>
+             
+                <title>type()</title>
+            <text x="112" y="1592.5" font-family="monospace" font-size="13" fill="#222">
+                <tspan x="112" y="1592.5">type()</tspan>
+            </text>
+                
+            </g>
+                <g>
+                   <rect x="124" y="1621" width="61.2" height="30" rx="3" ry="3" style="fill:#90caf9; stroke:#444; stroke-width:1"></rect>
+                   <title>type</title>
+            <text x="139" y="1641" font-family="monospace" font-size="13" fill="#222">
+                <tspan x="139" y="1641">type</tspan>
+            </text>
+                   
+                   
+                </g>
+                <g>
+                   <rect x="124" y="1669.5" width="318.59999999999997" height="30" rx="3" ry="3" style="fill:#90caf9; stroke:#444; stroke-width:1"></rect>
+                   <title>const type = this.get('content-type')</title>
+            <text x="139" y="1689.5" font-family="monospace" font-size="13" fill="#222">
+                <tspan x="139" y="1689.5">const type = this.get('content-type')</tspan>
+            </text>
+                   
+                   
+                </g><g>
+            <rect x="154" y="1733" width="114.6" height="30" rx="3" ry="3" style="fill:#ce93d8; stroke:#444; stroke-width:1"></rect>                
+            <polygon points="124,1748 154,1718 184,1748 154,1778" style="fill:#ce93d8; stroke:#444; stroke-width:1"></polygon>
+            <title>(!type)</title>
+            <text x="199" y="1753" font-family="monospace" font-size="13" fill="#222">
+                <tspan x="199" y="1753">(!type)</tspan>
+            </text>
+            
+            <text x="146.2" y="1753" font-family="monospace" font-size="13" fill="#222">if</text> <text x="161.8" y="1779.95" font-family="monospace" font-size="13" fill="#222">+</text> 
+        </g>
+            <g>
+                <rect x="174" y="1788" width="100.2" height="30" rx="3" ry="3" style="fill:#90caf9; stroke:#444; stroke-width:1"></rect>
+                
+                <line x1="274.2" y1="1798" x2="279.2" y2="1798" style="fill:#a5d6a7; stroke:#444; stroke-width:1"></line>
+                
+                <line x1="274.2" y1="1808" x2="279.2" y2="1808" style="fill:#a5d6a7; stroke:#444; stroke-width:1"></line>
+
+                <path d="M279.2, 1792 L295.2, 1803 L279.2, 1814 Z" fill="#a5d6a7" stroke="#444" stroke-width="1"></path>
+                             
+                <title>return ''</title>
+            <text x="189" y="1808" font-family="monospace" font-size="13" fill="#222">
+                <tspan x="189" y="1808">return ''</tspan>
+            </text>
+                
+            </g>
+            <g>
+                <rect x="124" y="1838" width="225" height="30" rx="3" ry="3" style="fill:#90caf9; stroke:#444; stroke-width:1"></rect>
+                
+                <line x1="349" y1="1848" x2="354" y2="1848" style="fill:#a5d6a7; stroke:#444; stroke-width:1"></line>
+                
+                <line x1="349" y1="1858" x2="354" y2="1858" style="fill:#a5d6a7; stroke:#444; stroke-width:1"></line>
+
+                <path d="M354, 1842 L370, 1853 L354, 1864 Z" fill="#a5d6a7" stroke="#444" stroke-width="1"></path>
+                             
+                <title>return type.split(';')[0]</title>
+            <text x="139" y="1858" font-family="monospace" font-size="13" fill="#222">
+                <tspan x="139" y="1858">return type.split(';')[0]</tspan>
+            </text>
+                
+            </g>
+                <g>
+                   <rect x="161" y="1886.5" width="147" height="30" rx="2" ry="2" style="fill:#C5E1A5; stroke:#444; stroke-width:1"></rect>
+                   <title>type.split(';')</title>
+            <text x="176" y="1906.5" font-family="monospace" font-size="13" fill="#222">
+                <tspan x="176" y="1906.5">type.split(';')</tspan>
+            </text>
+                   
+                   
+                </g>
+            <g>
+                <rect x="87" y="1950" width="143.6" height="30" style="fill:#a5d6a7; stroke:#444; stroke-width:1"></rect>
+                    
+                <line x1="97" y1="1950" x2="97" y2="1980" style="fill:#a5d6a7; stroke:#444; stroke-width:1"></line>
+                <line x1="220.6" y1="1950" x2="220.6" y2="1980" style="fill:#a5d6a7; stroke:#444; stroke-width:1"></line>
+             
+                <title>realStatus()</title>
+            <text x="112" y="1970" font-family="monospace" font-size="13" fill="#222">
+                <tspan x="112" y="1970">realStatus()</tspan>
+            </text>
+                
+            </g>
+                <g>
+                   <rect x="124" y="1998.5" width="108" height="30" rx="3" ry="3" style="fill:#90caf9; stroke:#444; stroke-width:1"></rect>
+                   <title>realStatus</title>
+            <text x="139" y="2018.5" font-family="monospace" font-size="13" fill="#222">
+                <tspan x="139" y="2018.5">realStatus</tspan>
+            </text>
+                   
+                   
+                </g><g>
+            <rect x="154" y="2062" width="208.2" height="30" rx="3" ry="3" style="fill:#ce93d8; stroke:#444; stroke-width:1"></rect>                
+            <polygon points="124,2077 154,2047 184,2077 154,2107" style="fill:#ce93d8; stroke:#444; stroke-width:1"></polygon>
+            <title>(this[REAL_STATUS])</title>
+            <text x="199" y="2082" font-family="monospace" font-size="13" fill="#222">
+                <tspan x="199" y="2082">(this[REAL_STATUS])</tspan>
+            </text>
+            
+            <text x="146.2" y="2082" font-family="monospace" font-size="13" fill="#222">if</text> <text x="161.8" y="2108.95" font-family="monospace" font-size="13" fill="#222">+</text> 
+        </g>
+            <g>
+                <rect x="174" y="2117" width="217.2" height="30" rx="3" ry="3" style="fill:#90caf9; stroke:#444; stroke-width:1"></rect>
+                
+                <line x1="391.2" y1="2127" x2="396.2" y2="2127" style="fill:#a5d6a7; stroke:#444; stroke-width:1"></line>
+                
+                <line x1="391.2" y1="2137" x2="396.2" y2="2137" style="fill:#a5d6a7; stroke:#444; stroke-width:1"></line>
+
+                <path d="M396.2, 2121 L412.2, 2132 L396.2, 2143 Z" fill="#a5d6a7" stroke="#444" stroke-width="1"></path>
+                             
+                <title>return this[REAL_STATUS]</title>
+            <text x="189" y="2137" font-family="monospace" font-size="13" fill="#222">
+                <tspan x="189" y="2137">return this[REAL_STATUS]</tspan>
+            </text>
+                
+            </g>
+            <g>
+                <rect x="124" y="2167" width="170.4" height="30" rx="3" ry="3" style="fill:#90caf9; stroke:#444; stroke-width:1"></rect>
+                
+                <line x1="294.4" y1="2177" x2="299.4" y2="2177" style="fill:#a5d6a7; stroke:#444; stroke-width:1"></line>
+                
+                <line x1="294.4" y1="2187" x2="299.4" y2="2187" style="fill:#a5d6a7; stroke:#444; stroke-width:1"></line>
+
+                <path d="M299.4, 2171 L315.4, 2182 L299.4, 2193 Z" fill="#a5d6a7" stroke="#444" stroke-width="1"></path>
+                             
+                <title>return this.status</title>
+            <text x="139" y="2187" font-family="monospace" font-size="13" fill="#222">
+                <tspan x="139" y="2187">return this.status</tspan>
+            </text>
+                
+            </g>
+            <g>
+                <rect x="87" y="2230.5" width="190.4" height="30" style="fill:#a5d6a7; stroke:#444; stroke-width:1"></rect>
+                    
+                <line x1="97" y1="2230.5" x2="97" y2="2260.5" style="fill:#a5d6a7; stroke:#444; stroke-width:1"></line>
+                <line x1="267.4" y1="2230.5" x2="267.4" y2="2260.5" style="fill:#a5d6a7; stroke:#444; stroke-width:1"></line>
+             
+                <title>realStatus(status)</title>
+            <text x="112" y="2250.5" font-family="monospace" font-size="13" fill="#222">
+                <tspan x="112" y="2250.5">realStatus(status)</tspan>
+            </text>
+                
+            </g>
+                <g>
+                   <rect x="124" y="2279" width="108" height="30" rx="3" ry="3" style="fill:#90caf9; stroke:#444; stroke-width:1"></rect>
+                   <title>realStatus</title>
+            <text x="139" y="2299" font-family="monospace" font-size="13" fill="#222">
+                <tspan x="139" y="2299">realStatus</tspan>
+            </text>
+                   
+                   
+                </g>
+                <g>
+                   <rect x="124" y="2327.5" width="232.79999999999998" height="30" rx="3" ry="3" style="fill:#90caf9; stroke:#444; stroke-width:1"></rect>
+                   <title>this[REAL_STATUS] = status</title>
+            <text x="139" y="2347.5" font-family="monospace" font-size="13" fill="#222">
+                <tspan x="139" y="2347.5">this[REAL_STATUS] = status</tspan>
+            </text>
+                   
+                   
+                </g>
+            <g>
+               <rect x="25" y="13.75" width="216.6" height="24" style="fill:#fff59d; stroke:#444; stroke-width:1"></rect>
+               <circle cx="25" cy="25" r="15" style="fill:#fff59d; stroke:#444; stroke-width:1"></circle>
+               <title>Program: source module</title>
+            <text x="55" y="30" font-family="monospace" font-size="13" fill="#222">
+                <tspan x="55" y="30">Program: source module</tspan>
+            </text>
+            </g>
+            <g>
+               <path d="M25, 40 L25 76 Q25 80
+                29 80
+                L42 80 " style="fill:none; stroke:#444; stroke-width:1"></path>
+               <path d="M42, 77 L50, 80 L42, 83 Z" fill="#333"></path>
+            </g>
+            <g>
+               <path d="M25, 40 L25 124.5 Q25 128.5
+                29 128.5
+                L42 128.5 " style="fill:none; stroke:#444; stroke-width:1"></path>
+               <path d="M42, 125.5 L50, 128.5 L42, 131.5 Z" fill="#333"></path>
+            </g>
+            <g>
+               <path d="M25, 40 L25 173 Q25 177
+                29 177
+                L42 177 " style="fill:none; stroke:#444; stroke-width:1"></path>
+               <path d="M42, 174 L50, 177 L42, 180 Z" fill="#333"></path>
+            </g>
+            <g>
+               <path d="M25, 40 L25 221.5 Q25 225.5
+                29 225.5
+                L42 225.5 " style="fill:none; stroke:#444; stroke-width:1"></path>
+               <path d="M42, 222.5 L50, 225.5 L42, 228.5 Z" fill="#333"></path>
+            </g>
+            <g>
+               <path d="M68.5, 240.5 L68.5 285 Q68.5 289
+                72.5 289
+                L87 289 " style="fill:none; stroke:#444; stroke-width:1"></path>
+               false
+            </g>
+            <g>
+               <path d="M105.5, 304 L105.5 333.5 Q105.5 337.5
+                109.5 337.5
+                L116 337.5 " style="fill:none; stroke:#444; stroke-width:1"></path>
+               <path d="M116, 334.5 L124, 337.5 L116, 340.5 Z" fill="#333"></path>
+            </g>
+            <g>
+               <path d="M105.5, 304 L105.5 382 Q105.5 386
+                109.5 386
+                L116 386 " style="fill:none; stroke:#444; stroke-width:1"></path>
+               <path d="M116, 383 L124, 386 L116, 389 Z" fill="#333"></path>
+            </g>
+            <g>
+               <path d="M68.5, 240.5 L68.5 445.5 Q68.5 449.5
+                72.5 449.5
+                L87 449.5 " style="fill:none; stroke:#444; stroke-width:1"></path>
+               false
+            </g>
+            <g>
+               <path d="M105.5, 464.5 L105.5 494 Q105.5 498
+                109.5 498
+                L116 498 " style="fill:none; stroke:#444; stroke-width:1"></path>
+               <path d="M116, 495 L124, 498 L116, 501 Z" fill="#333"></path>
+            </g>
+            <g>
+               <path d="M105.5, 464.5 L105.5 542.5 Q105.5 546.5
+                109.5 546.5
+                L116 546.5 " style="fill:none; stroke:#444; stroke-width:1"></path>
+               <path d="M116, 543.5 L124, 546.5 L116, 549.5 Z" fill="#333"></path>
+            </g>
+            <g>
+               <path d="M105.5, 464.5 L105.5 591 Q105.5 595
+                109.5 595
+                L116 595 " style="fill:none; stroke:#444; stroke-width:1"></path>
+               <path d="M116, 592 L124, 595 L116, 598 Z" fill="#333"></path>
+            </g>
+            <g>
+               <path d="M105.5, 464.5 L105.5 654.5 Q105.5 658.5
+                109.5 658.5
+                L116 658.5 " style="fill:none; stroke:#444; stroke-width:1"></path>
+               <path d="M116, 655.5 L124, 658.5 L116, 661.5 Z" fill="#333"></path>
+            </g>
+            <g>
+               <path d="M154, 688.5 L154 724.5 Q154 728.5
+                158 728.5
+                L166 728.5 " style="fill:none; stroke:#444; stroke-width:1"></path>
+               <path d="M166, 725.5 L174, 728.5 L166, 731.5 Z" fill="#333"></path>
+            </g>
+            <g>
+               <path d="M204, 758.5 L204 779.5 Q204 783.5
+                208 783.5
+                L216 783.5 " style="fill:none; stroke:#444; stroke-width:1"></path>
+               <path d="M216, 780.5 L224, 783.5 L216, 786.5 Z" fill="#333"></path>
+            </g>
+            <g>
+               <path d="M154, 688.5 L154 844.5 Q154 848.5
+                158 848.5
+                L166 848.5 " style="fill:none; stroke:#444; stroke-width:1"></path>
+               <path d="M166, 845.5 L174, 848.5 L166, 851.5 Z" fill="#333"></path>
+            </g>
+            <g>
+               <path d="M204, 878.5 L204 899.5 Q204 903.5
+                208 903.5
+                L216 903.5 " style="fill:none; stroke:#444; stroke-width:1"></path>
+               <path d="M216, 900.5 L224, 903.5 L216, 906.5 Z" fill="#333"></path>
+            </g>
+            <g>
+               <path d="M154, 688.5 L154 964.5 Q154 968.5
+                158 968.5
+                L166 968.5 " style="fill:none; stroke:#444; stroke-width:1"></path>
+               <path d="M166, 965.5 L174, 968.5 L166, 971.5 Z" fill="#333"></path>
+            </g>
+            <g>
+               <path d="M204, 998.5 L204 1019.5 Q204 1023.5
+                208 1023.5
+                L216 1023.5 " style="fill:none; stroke:#444; stroke-width:1"></path>
+               <path d="M216, 1020.5 L224, 1023.5 L216, 1026.5 Z" fill="#333"></path>
+            </g>
+            <g>
+               <path d="M154, 688.5 L154 1084.5 Q154 1088.5
+                158 1088.5
+                L166 1088.5 " style="fill:none; stroke:#444; stroke-width:1"></path>
+               <path d="M166, 1085.5 L174, 1088.5 L166, 1091.5 Z" fill="#333"></path>
+            </g>
+            <g>
+               <path d="M204, 1118.5 L204 1139.5 Q204 1143.5
+                208 1143.5
+                L216 1143.5 " style="fill:none; stroke:#444; stroke-width:1"></path>
+               <path d="M216, 1140.5 L224, 1143.5 L216, 1146.5 Z" fill="#333"></path>
+            </g>
+            <g>
+               <path d="M154, 688.5 L154 1189.5 Q154 1193.5
+                158 1193.5
+                L166 1193.5 " style="fill:none; stroke:#444; stroke-width:1"></path>
+               <path d="M166, 1190.5 L174, 1193.5 L166, 1196.5 Z" fill="#333"></path>
+            </g>
+            <g>
+               <path d="M105.5, 464.5 L105.5 1239.5 Q105.5 1243.5
+                109.5 1243.5
+                L116 1243.5 " style="fill:none; stroke:#444; stroke-width:1"></path>
+               <path d="M116, 1240.5 L124, 1243.5 L116, 1246.5 Z" fill="#333"></path>
+            </g>
+            <g>
+               <path d="M68.5, 240.5 L68.5 1303 Q68.5 1307
+                72.5 1307
+                L87 1307 " style="fill:none; stroke:#444; stroke-width:1"></path>
+               false
+            </g>
+            <g>
+               <path d="M105.5, 1322 L105.5 1351.5 Q105.5 1355.5
+                109.5 1355.5
+                L116 1355.5 " style="fill:none; stroke:#444; stroke-width:1"></path>
+               <path d="M116, 1352.5 L124, 1355.5 L116, 1358.5 Z" fill="#333"></path>
+            </g>
+            <g>
+               <path d="M105.5, 1322 L105.5 1400 Q105.5 1404
+                109.5 1404
+                L116 1404 " style="fill:none; stroke:#444; stroke-width:1"></path>
+               <path d="M116, 1401 L124, 1404 L116, 1407 Z" fill="#333"></path>
+            </g>
+            <g>
+               <path d="M105.5, 1322 L105.5 1463.5 Q105.5 1467.5
+                109.5 1467.5
+                L116 1467.5 " style="fill:none; stroke:#444; stroke-width:1"></path>
+               <path d="M116, 1464.5 L124, 1467.5 L116, 1470.5 Z" fill="#333"></path>
+            </g>
+            <g>
+               <path d="M154, 1497.5 L154 1518.5 Q154 1522.5
+                158 1522.5
+                L166 1522.5 " style="fill:none; stroke:#444; stroke-width:1"></path>
+               <path d="M166, 1519.5 L174, 1522.5 L166, 1525.5 Z" fill="#333"></path>
+            </g>
+            <g>
+               <path d="M260.8, 1467.5 L474 1467.5  Q478 1467.5
+                478 1471.5
+                L478 1514.5 Q478 1522.5
+                482 1522.5
+                L490 1522.5 " style="fill:none; stroke:#444; stroke-width:1"></path>
+               <path d="M490, 1519.5 L498, 1522.5 L490, 1525.5 Z" fill="#333"></path>
+            </g>
+            <g>
+               <path d="M68.5, 240.5 L68.5 1583.5 Q68.5 1587.5
+                72.5 1587.5
+                L87 1587.5 " style="fill:none; stroke:#444; stroke-width:1"></path>
+               false
+            </g>
+            <g>
+               <path d="M105.5, 1602.5 L105.5 1632 Q105.5 1636
+                109.5 1636
+                L116 1636 " style="fill:none; stroke:#444; stroke-width:1"></path>
+               <path d="M116, 1633 L124, 1636 L116, 1639 Z" fill="#333"></path>
+            </g>
+            <g>
+               <path d="M105.5, 1602.5 L105.5 1680.5 Q105.5 1684.5
+                109.5 1684.5
+                L116 1684.5 " style="fill:none; stroke:#444; stroke-width:1"></path>
+               <path d="M116, 1681.5 L124, 1684.5 L116, 1687.5 Z" fill="#333"></path>
+            </g>
+            <g>
+               <path d="M105.5, 1602.5 L105.5 1744 Q105.5 1748
+                109.5 1748
+                L116 1748 " style="fill:none; stroke:#444; stroke-width:1"></path>
+               <path d="M116, 1745 L124, 1748 L116, 1751 Z" fill="#333"></path>
+            </g>
+            <g>
+               <path d="M154, 1778 L154 1799 Q154 1803
+                158 1803
+                L166 1803 " style="fill:none; stroke:#444; stroke-width:1"></path>
+               <path d="M166, 1800 L174, 1803 L166, 1806 Z" fill="#333"></path>
+            </g>
+            <g>
+               <path d="M105.5, 1602.5 L105.5 1849 Q105.5 1853
+                109.5 1853
+                L116 1853 " style="fill:none; stroke:#444; stroke-width:1"></path>
+               <path d="M116, 1850 L124, 1853 L116, 1856 Z" fill="#333"></path>
+            </g>
+            <g>
+               <path d="M142.5, 1868 L142.5 1897.5 Q142.5 1901.5
+                146.5 1901.5
+                L153 1901.5 " style="fill:none; stroke:#444; stroke-width:1"></path>
+               <path d="M153, 1898.5 L161, 1901.5 L153, 1904.5 Z" fill="#333"></path>
+            </g>
+            <g>
+               <path d="M68.5, 240.5 L68.5 1961 Q68.5 1965
+                72.5 1965
+                L87 1965 " style="fill:none; stroke:#444; stroke-width:1"></path>
+               false
+            </g>
+            <g>
+               <path d="M105.5, 1980 L105.5 2009.5 Q105.5 2013.5
+                109.5 2013.5
+                L116 2013.5 " style="fill:none; stroke:#444; stroke-width:1"></path>
+               <path d="M116, 2010.5 L124, 2013.5 L116, 2016.5 Z" fill="#333"></path>
+            </g>
+            <g>
+               <path d="M105.5, 1980 L105.5 2073 Q105.5 2077
+                109.5 2077
+                L116 2077 " style="fill:none; stroke:#444; stroke-width:1"></path>
+               <path d="M116, 2074 L124, 2077 L116, 2080 Z" fill="#333"></path>
+            </g>
+            <g>
+               <path d="M154, 2107 L154 2128 Q154 2132
+                158 2132
+                L166 2132 " style="fill:none; stroke:#444; stroke-width:1"></path>
+               <path d="M166, 2129 L174, 2132 L166, 2135 Z" fill="#333"></path>
+            </g>
+            <g>
+               <path d="M105.5, 1980 L105.5 2178 Q105.5 2182
+                109.5 2182
+                L116 2182 " style="fill:none; stroke:#444; stroke-width:1"></path>
+               <path d="M116, 2179 L124, 2182 L116, 2185 Z" fill="#333"></path>
+            </g>
+            <g>
+               <path d="M68.5, 240.5 L68.5 2241.5 Q68.5 2245.5
+                72.5 2245.5
+                L87 2245.5 " style="fill:none; stroke:#444; stroke-width:1"></path>
+               false
+            </g>
+            <g>
+               <path d="M105.5, 2260.5 L105.5 2290 Q105.5 2294
+                109.5 2294
+                L116 2294 " style="fill:none; stroke:#444; stroke-width:1"></path>
+               <path d="M116, 2291 L124, 2294 L116, 2297 Z" fill="#333"></path>
+            </g>
+            <g>
+               <path d="M105.5, 2260.5 L105.5 2338.5 Q105.5 2342.5
+                109.5 2342.5
+                L116 2342.5 " style="fill:none; stroke:#444; stroke-width:1"></path>
+               <path d="M116, 2339.5 L124, 2342.5 L116, 2345.5 Z" fill="#333"></path>
+            </g>
+            </svg>

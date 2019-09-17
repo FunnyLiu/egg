@@ -10,7 +10,7 @@ const HOST = Symbol('HOST');
 const ACCEPTS = Symbol('ACCEPTS');
 const IPS = Symbol('IPS');
 const RE_ARRAY_KEY = /[^\[\]]+\[\]$/;
-
+// 注册一些属性到ctx.request上
 module.exports = {
   /**
    * Parse the "Host" header field host

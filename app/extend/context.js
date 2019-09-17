@@ -11,7 +11,7 @@ const COOKIES = Symbol('Context#cookies');
 const CONTEXT_LOGGERS = Symbol('Context#logger');
 const CONTEXT_HTTPCLIENT = Symbol('Context#httpclient');
 const CONTEXT_ROUTER = Symbol('Context#router');
-
+// 设置一些值到ctx上
 const proto = module.exports = {
 
   /**
@@ -241,7 +241,7 @@ const proto = module.exports = {
 /**
  * Context delegation.
  */
-
+// 代理request某些属性到该对象原型上，参考koa的ctx实现
 delegate(proto, 'request')
   /**
    * @member {Boolean} Context#acceptJSON

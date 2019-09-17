@@ -1,0 +1,150 @@
+﻿
+                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="614" height="490" shape-rendering="optimizeSpeed">
+                
+                <g>
+                   <rect x="50" y="65" width="232.79999999999998" height="30" rx="3" ry="3" style="fill:#90caf9; stroke:#444; stroke-width:1"></rect>
+                   <title>const url = require('url')</title>
+            <text x="65" y="85" font-family="monospace" font-size="13" fill="#222">
+                <tspan x="65" y="85">const url = require('url')</tspan>
+            </text>
+                   
+                   
+                </g>
+                <g>
+                   <rect x="50" y="113.5" width="186" height="30" rx="3" ry="3" style="fill:#90caf9; stroke:#444; stroke-width:1"></rect>
+                   <title>module.exports = {*}</title>
+            <text x="65" y="133.5" font-family="monospace" font-size="13" fill="#222">
+                <tspan x="65" y="133.5">module.exports = {*}</tspan>
+            </text>
+                   
+                   
+                </g>
+            <g>
+                <rect x="87" y="177" width="213.79999999999998" height="30" style="fill:#a5d6a7; stroke:#444; stroke-width:1"></rect>
+                    
+                <line x1="97" y1="177" x2="97" y2="207" style="fill:#a5d6a7; stroke:#444; stroke-width:1"></line>
+                <line x1="290.79999999999995" y1="177" x2="290.79999999999995" y2="207" style="fill:#a5d6a7; stroke:#444; stroke-width:1"></line>
+             
+                <title>pathFor(name, params)</title>
+            <text x="112" y="197" font-family="monospace" font-size="13" fill="#222">
+                <tspan x="112" y="197">pathFor(name, params)</tspan>
+            </text>
+                
+            </g>
+                <g>
+                   <rect x="124" y="225.5" width="84.6" height="30" rx="3" ry="3" style="fill:#90caf9; stroke:#444; stroke-width:1"></rect>
+                   <title>pathFor</title>
+            <text x="139" y="245.5" font-family="monospace" font-size="13" fill="#222">
+                <tspan x="139" y="245.5">pathFor</tspan>
+            </text>
+                   
+                   
+                </g>
+            <g>
+                <rect x="124" y="274" width="342" height="30" rx="3" ry="3" style="fill:#90caf9; stroke:#444; stroke-width:1"></rect>
+                
+                <line x1="466" y1="284" x2="471" y2="284" style="fill:#a5d6a7; stroke:#444; stroke-width:1"></line>
+                
+                <line x1="466" y1="294" x2="471" y2="294" style="fill:#a5d6a7; stroke:#444; stroke-width:1"></line>
+
+                <path d="M471, 278 L487, 289 L471, 300 Z" fill="#a5d6a7" stroke="#444" stroke-width="1"></path>
+                             
+                <title>return this.app.router.url(name, params)</title>
+            <text x="139" y="294" font-family="monospace" font-size="13" fill="#222">
+                <tspan x="139" y="294">return this.app.router.url(name, params)</tspan>
+            </text>
+                
+            </g>
+            <g>
+                <rect x="87" y="337.5" width="206" height="30" style="fill:#a5d6a7; stroke:#444; stroke-width:1"></rect>
+                    
+                <line x1="97" y1="337.5" x2="97" y2="367.5" style="fill:#a5d6a7; stroke:#444; stroke-width:1"></line>
+                <line x1="283" y1="337.5" x2="283" y2="367.5" style="fill:#a5d6a7; stroke:#444; stroke-width:1"></line>
+             
+                <title>urlFor(name, params)</title>
+            <text x="112" y="357.5" font-family="monospace" font-size="13" fill="#222">
+                <tspan x="112" y="357.5">urlFor(name, params)</tspan>
+            </text>
+                
+            </g>
+                <g>
+                   <rect x="124" y="386" width="76.8" height="30" rx="3" ry="3" style="fill:#90caf9; stroke:#444; stroke-width:1"></rect>
+                   <title>urlFor</title>
+            <text x="139" y="406" font-family="monospace" font-size="13" fill="#222">
+                <tspan x="139" y="406">urlFor</tspan>
+            </text>
+                   
+                   
+                </g>
+            <g>
+                <rect x="124" y="434.5" width="443.4" height="30" rx="3" ry="3" style="fill:#90caf9; stroke:#444; stroke-width:1"></rect>
+                
+                <line x1="567.4" y1="444.5" x2="572.4" y2="444.5" style="fill:#a5d6a7; stroke:#444; stroke-width:1"></line>
+                
+                <line x1="567.4" y1="454.5" x2="572.4" y2="454.5" style="fill:#a5d6a7; stroke:#444; stroke-width:1"></line>
+
+                <path d="M572.4, 438.5 L588.4, 449.5 L572.4, 460.5 Z" fill="#a5d6a7" stroke="#444" stroke-width="1"></path>
+                             
+                <title>return this.ctx.protocol + '://' + this.ctx.host + url.resolve('/', this.app.router.url(name, params))</title>
+            <text x="139" y="454.5" font-family="monospace" font-size="13" fill="#222">
+                <tspan x="139" y="454.5">return this.ctx.protocol + '://' + this.ctx.host +...</tspan>
+            </text>
+                
+            </g>
+            <g>
+               <rect x="25" y="13.75" width="216.6" height="24" style="fill:#fff59d; stroke:#444; stroke-width:1"></rect>
+               <circle cx="25" cy="25" r="15" style="fill:#fff59d; stroke:#444; stroke-width:1"></circle>
+               <title>Program: source module</title>
+            <text x="55" y="30" font-family="monospace" font-size="13" fill="#222">
+                <tspan x="55" y="30">Program: source module</tspan>
+            </text>
+            </g>
+            <g>
+               <path d="M25, 40 L25 76 Q25 80
+                29 80
+                L42 80 " style="fill:none; stroke:#444; stroke-width:1"></path>
+               <path d="M42, 77 L50, 80 L42, 83 Z" fill="#333"></path>
+            </g>
+            <g>
+               <path d="M25, 40 L25 124.5 Q25 128.5
+                29 128.5
+                L42 128.5 " style="fill:none; stroke:#444; stroke-width:1"></path>
+               <path d="M42, 125.5 L50, 128.5 L42, 131.5 Z" fill="#333"></path>
+            </g>
+            <g>
+               <path d="M68.5, 143.5 L68.5 188 Q68.5 192
+                72.5 192
+                L87 192 " style="fill:none; stroke:#444; stroke-width:1"></path>
+               false
+            </g>
+            <g>
+               <path d="M105.5, 207 L105.5 236.5 Q105.5 240.5
+                109.5 240.5
+                L116 240.5 " style="fill:none; stroke:#444; stroke-width:1"></path>
+               <path d="M116, 237.5 L124, 240.5 L116, 243.5 Z" fill="#333"></path>
+            </g>
+            <g>
+               <path d="M105.5, 207 L105.5 285 Q105.5 289
+                109.5 289
+                L116 289 " style="fill:none; stroke:#444; stroke-width:1"></path>
+               <path d="M116, 286 L124, 289 L116, 292 Z" fill="#333"></path>
+            </g>
+            <g>
+               <path d="M68.5, 143.5 L68.5 348.5 Q68.5 352.5
+                72.5 352.5
+                L87 352.5 " style="fill:none; stroke:#444; stroke-width:1"></path>
+               false
+            </g>
+            <g>
+               <path d="M105.5, 367.5 L105.5 397 Q105.5 401
+                109.5 401
+                L116 401 " style="fill:none; stroke:#444; stroke-width:1"></path>
+               <path d="M116, 398 L124, 401 L116, 404 Z" fill="#333"></path>
+            </g>
+            <g>
+               <path d="M105.5, 367.5 L105.5 445.5 Q105.5 449.5
+                109.5 449.5
+                L116 449.5 " style="fill:none; stroke:#444; stroke-width:1"></path>
+               <path d="M116, 446.5 L124, 449.5 L116, 452.5 Z" fill="#333"></path>
+            </g>
+            </svg>

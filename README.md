@@ -6,16 +6,16 @@
 ├── agent.js
 ├── app
 |  ├── extend
-|  |  ├── context.js
-|  |  ├── helper.js
-|  |  ├── request.js
-|  |  └── response.js
+|  |  ├── context.js - 在loadContextExtend阶段时被加载，设置了ctx.cookies,ctx.httpclient,ctx.curl,ctx.router等等属性，并将某些request，response的属性代理到ctx上。
+|  |  ├── helper.js - 在loadHelperExtend阶段时被加载。注册方法到ctx.helper上
+|  |  ├── request.js - 在loadRequestExtend阶段时被加载，注册一些属性到ctx.request上。
+|  |  └── response.js - 在loadResponseExtend阶段时被加载，注册一些属性到ctx.response上
 |  └── middleware
-|     ├── body_parser.js
-|     ├── meta.js
-|     ├── notfound.js
-|     ├── override_method.js
-|     └── site_file.js
+|     ├── body_parser.js - 直接暴露koa-bodyparser
+|     ├── meta.js - 设置头keep-alive
+|     ├── notfound.js - 404中间件，重定向到pageUrl或返回默认html
+|     ├── override_method.js - 直接暴露koa-override
+|     └── site_file.js - favicon.icon， robots等处理
 ├── appveyor.yml - 持续集成CI文件
 ├── config
 |  ├── config.default.js
@@ -194,3 +194,34 @@ egg.js
 继承自egg.js，并做了一些application的处理如异常处理，书写额外配置等
 
 ![](./graphviz/lib_application.svg)
+
+### app/extend/context.js
+
+在loadContextExtend阶段时被加载。
+设置了ctx.cookies,ctx.httpclient,ctx.curl,ctx.router等等属性，并将某些request，response的属性代理到ctx上。
+
+![](./graphviz/app_extend_context.svg)
+
+
+### app/extend/helper.js
+
+在loadHelperExtend阶段时被加载。注册方法到ctx.helper上。
+
+
+![](./graphviz/app_extend_helper.svg)
+
+
+### app/extend/request.js
+
+在loadRequestExtend阶段时被加载，注册一些属性到ctx.request上。
+
+
+![](./graphviz/app_extend_request.svg)
+
+
+### app/extend/response.js
+
+在loadResponseExtend阶段时被加载，注册一些属性到ctx.response上
+
+
+![](./graphviz/app_extend_response.svg)
