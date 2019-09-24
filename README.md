@@ -22,7 +22,7 @@
 |  ├── config.local.js
 |  ├── config.unittest.js
 |  ├── favicon.png
-|  └── plugin.js
+|  └── plugin.js - 一些内置插件，如egg-security、egg-multipart等，在egg-core的loadPlugin阶段加载
 ├── index.d.ts - 声明文件
 ├── index.js - 入口文件
 ├── lib
@@ -73,6 +73,7 @@ egg.js
 核心依赖项源码分析
 
 - [egg-core源码分析](https://github.com/FunnyLiu/egg-core/tree/readsource) - 核心的loader和controller，service，app，等均在此封装。
+- [egg-logger源码分析](https://github.com/FunnyLiu/egg-logger/tree/readsource) - 分级日志logger和transform在此封装。
 
 ## 各文件解析
 
