@@ -74,6 +74,8 @@ egg.js
 
 - [egg-core源码分析](https://github.com/FunnyLiu/egg-core/tree/readsource) - 核心的loader和controller，service，app，等均在此封装。
 - [egg-logger源码分析](https://github.com/FunnyLiu/egg-logger/tree/readsource) - 分级日志logger和transform在此封装。
+- [egg-onerror源码分析](https://github.com/FunnyLiu/egg-onerror/tree/readsource) - 内置的异常处理插件，基于koa-onerror，拦截异常上报和错误页渲染模板。
+
 
 ## 各文件解析
 
