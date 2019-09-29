@@ -78,7 +78,7 @@ egg.js
 - [egg-session源码分析](https://github.com/FunnyLiu/egg-session/tree/readsource) - 将koa-session作为中间件挂载，并提供了sessionStore，方便自定义存取器，供给config.session.store。
 - [egg-watcher源码分析](https://github.com/FunnyLiu/egg-watcher/tree/readsource) - 底层基于ws模块负责文件监听，这里进行了配置和默认eventSource的封装。库本身是继承自sdk-base。 文件监听后对外抛出事件。
 - [egg-multipart源码分析](https://github.com/FunnyLiu/egg-multipart/tree/readsource) - 基于co-busboy模块，解析multipart，挂载ctx.request.files和ctx.request.body。
-
+- [egg-security源码分析](https://github.com/FunnyLiu/egg-security/tree/readsource) - 提供一系列转义的helper方法，和一系列安全的中间件，加上各种响应头。
 
 ## 架构图
 
