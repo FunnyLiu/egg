@@ -1,5 +1,7 @@
 # 源码分析
 
+很多核心的方法继承自egg-core。
+
 ## 文件结构
 
 ``` bash
@@ -143,9 +145,32 @@ egg.js
 
 ### lib/loader/app_worker_loader.js
 
-继承自egg-core的EggLoader，逐个调用加载函数
+继承自egg-core的EggLoader，逐个调用加载函数。加载顺序为
+``` js
 
+this.loadPlugin();
+this.loadConfig();
 
+this.loadApplicationExtend();
+this.loadRequestExtend();
+this.loadResponseExtend();
+this.loadContextExtend();
+this.loadHelperExtend();
+
+this.loadCustomLoader();
+
+// app > plugin
+this.loadCustomApp();
+// app > plugin
+this.loadService();
+// app > plugin > core
+this.loadMiddleware();
+// app
+this.loadController();
+// app
+this.loadRouter(); // Dependent on controllers
+
+```
 
 ### lib/loader/agent_worker_loader.js
 
