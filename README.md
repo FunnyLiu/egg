@@ -75,6 +75,7 @@ egg.js
 核心依赖项
 
 - [egg-core源码分析](https://github.com/FunnyLiu/egg-core/tree/readsource) - 核心的loader和controller，service，app，等均在此封装
+- [koa源码分析](https://github.com/FunnyLiu/koa/tree/readsource) - egg的ctx，app等均继承自koa，所以koa源码是基本。
 
 内部集成插件依赖
 
