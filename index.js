@@ -8,6 +8,7 @@
  * Start egg application with cluster mode
  * @since 1.0.0
  */
+// startCluster方法非常关键，egg-scripts的start和egg-bin的dev命令均基于此
 exports.startCluster = require('egg-cluster').startCluster;
 
 /**

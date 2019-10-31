@@ -26,7 +26,7 @@
 |  ├── favicon.png
 |  └── plugin.js - 一些内置插件，如egg-security、egg-multipart等，在egg-core的loadPlugin阶段加载
 ├── index.d.ts - 声明文件
-├── index.js - 入口文件
+├── index.js - 入口文件，提供了重要的startCluster方法，基于egg-cluster模块
 ├── lib
 |  ├── agent.js - 继承自egg.js，并做了一些agent的处理如保证进程存活，返回agent的loader等
 |  ├── application.js - 继承自egg.js，并做了一些application的处理如异常处理，书写额外配置等
@@ -76,6 +76,8 @@ egg.js
 - [koa源码分析](https://github.com/FunnyLiu/koa/tree/readsource) - egg的ctx，app等均继承自koa，所以koa源码是基本。
 - [egg-core源码分析](https://github.com/FunnyLiu/egg-core/tree/readsource) - 核心的loader和controller，service，app，等均在此封装
 - [egg-bin源码分析](https://github.com/FunnyLiu/egg-bin/tree/readsource) - 提供一些cli命令，继承自common-bin模块。封装了dev、test等cli命令。
+- [egg-script源码分析](https://github.com/FunnyLiu/egg-scripts/tree/readsource) - 提供start/stop命令。继承自common-bin模块。
+- [common-bin源码分析](https://github.com/FunnyLiu/common-bin/tree/readsource) - cli基本类，通过load文件夹内容的规约方式来注册命令。
 
 内部集成插件依赖
 
@@ -98,7 +100,9 @@ egg.js
 
 ### index.js
 
-入口文件，用于将内部各模块对外暴露
+入口文件，用于将内部各模块对外暴露。
+
+提供了重要的startCluster方法，基于egg-cluster模块。该方法被egg-bin的dev命令和egg-scripts的start命令使用。
 
 
 
