@@ -78,6 +78,7 @@ egg.js
 - [egg-bin源码分析](https://github.com/FunnyLiu/egg-bin/tree/readsource) - 提供一些cli命令，继承自common-bin模块。封装了dev、test等cli命令。
 - [egg-script源码分析](https://github.com/FunnyLiu/egg-scripts/tree/readsource) - 提供start/stop命令。继承自common-bin模块。
 - [common-bin源码分析](https://github.com/FunnyLiu/common-bin/tree/readsource) - cli基本类，通过load文件夹内容的规约方式来注册命令。
+- [egg-cluster源码分析](https://github.com/FunnyLiu/egg-cluster/tree/readsource) - egg多进程模型启动，具体实现。提供startCluster方法供egg-bin dev和egg-scripts start使用。
 
 内部集成插件依赖
 
