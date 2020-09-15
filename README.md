@@ -96,6 +96,10 @@ egg.js
 
 <img src="https://raw.githubusercontent.com/brizer/graph-bed/master/img/20190927111417.png"/>
 
+## 命令行工具架构图
+
+<img src="https://raw.githubusercontent.com/brizer/graph-bed/master/img/20200915093633.png"/>
+
 
 ## 各文件解析
 
