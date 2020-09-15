@@ -90,6 +90,9 @@ egg.js
 - [egg-security源码分析](https://github.com/FunnyLiu/egg-security/tree/readsource) - 提供一系列转义的helper方法，和一系列安全的中间件，加上各种响应头。
 - [egg-development源码分析](https://github.com/FunnyLiu/egg-development/tree/readsource) - __loader_trace__显示追踪调用数据，agent基于egg-watcher模块挂载的ctx.watcher开启文件监听，通过process.send给master进程发消息。app简单的增加中间件。
 
+其他插件
+
+- [egg-cookies源码分析](https://github.com/FunnyLiu/egg-cookies/tree/readsource) - 通过app.keys来加解密cookie。多个key进行轮换密钥。
 
 
 ## 架构图
